@@ -9,7 +9,7 @@ Az alkalmazásban lehet regisztrálni, különböző elektronikai termékek köz
 Ezen túlmenően lehetőség van a termékek értékelésére, azok szöveges véleményezésére.
 
 ### A Webshop elérhetősége:
-Az alkalmazás az alábbi linken keresztül érhető el:
-[Ide kattintva](http://test-automation-shop2.greenfox.academy/)
+Az alkalmazás az alábbi [linken] (http://test-automation-shop2.greenfox.academy/) keresztül érhető el.
 
-### A manuális tesztesetek elérhetősége
+### A manuális tesztesetek elérhetősége:
+A tesztesetek az alábbi [linken] (https://drive.google.com/file/d/1zwQvXrYZuVzvr9awKErvRBtX50aHjj5H/view?usp=sharing) keresztül érhetőek el.
