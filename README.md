@@ -12,4 +12,5 @@ Ezen túlmenően lehetőség van a termékek értékelésére, azok szöveges v�
 Az alkalmazás az alábbi linkre kattintva érhető el: [link](http://test-automation-shop2.greenfox.academy/)
 
 ### A manuális tesztesetek elérhetősége:
-A tesztesetek az alábbi linkre kattintva érhetőek el: [link](https://drive.google.com/file/d/1zwQvXrYZuVzvr9awKErvRBtX50aHjj5H/view?usp=sharing)
+A tesztesetek az alábbi linkre kattintva érhetőek el: [link](https://docs.google.com/spreadsheets/d/1PJVslE8R2GbVSieJOSAyNLOjZydhBLyG0vyXxKd8RUo/edit?usp=sharing)
+
