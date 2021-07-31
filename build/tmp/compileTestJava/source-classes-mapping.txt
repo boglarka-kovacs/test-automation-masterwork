@@ -32,3 +32,11 @@ masterwork/myStore/Pages/AddressBookModifyPage.java
  masterwork.myStore.Pages.AddressBookModifyPage
 masterwork/myStore/TC06_ProductListingTest.java
  masterwork.myStore.TC06_ProductListingTest
+masterwork/myStore/TC10_PasswordChangingSuccessTest.java
+ masterwork.myStore.TC10_PasswordChangingSuccessTest
+masterwork/myStore/TC09_RepetitiveDataEntryTest.java
+ masterwork.myStore.TC09_RepetitiveDataEntryTest
+masterwork/myStore/TC07_PaginationSuccessfulTest.java
+ masterwork.myStore.TC07_PaginationSuccessfulTest
+masterwork/myStore/TC08_SendProductReviewSuccessTest.java
+ masterwork.myStore.TC08_SendProductReviewSuccessTest
