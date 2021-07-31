@@ -22,7 +22,7 @@ public class PhonesAndPDAsPage extends BasePage{
   @FindBy(xpath = "//*[@id='content']/div/div[2]/h1")
   public WebElement title;
 
-  @FindBy(xpath = "//*[@id='tab-description']/p[1]")
+  @FindBy(xpath = "//*[@id=\"content\"]/div/div[1]/div")
   public WebElement description;
 
   @FindBy(xpath = "//h4/a")
