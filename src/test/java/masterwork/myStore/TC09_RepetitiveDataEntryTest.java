@@ -38,7 +38,7 @@ public class TC09_RepetitiveDataEntryTest extends BaseTest{
     Assertions.assertThat(driver.getTitle()).isEqualTo("Address Book");
   }
   @ParameterizedTest
-  @CsvFileSource(resources = "/adresses.csv", numLinesToSkip = 1)
+  @CsvFileSource(resources = "/addresses.csv", numLinesToSkip = 1)
   @DisplayName("Data entry success")
   @Description("Test to successful entry data to user account")
   public void repetitiveDataEntryToAddressBook(String firstName, String lastName,
