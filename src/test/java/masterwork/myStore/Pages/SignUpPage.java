@@ -5,55 +5,108 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class SignUpPage extends BasePage{
+
   public SignUpPage(WebDriver driver) {
     super(driver);
   }
 
-  public boolean isError() {
-    return getEmailErrorMessage.equals("E-Mail Address does not appear to be valid!");
+  public boolean isFirstNameError() {
+    return (getErrorMessage.getText().equals("First Name must be between 1 and 32 characters!"));
+  }
+
+  public boolean isLastNameError() {
+    return (getErrorMessage.getText()).equals("Last Name must be between 1 and 32 characters!");
+  }
+
+  public boolean isEmailError() {
+    return (getErrorMessage.getText()).equals("E-Mail Address does not appear to be valid!");
+  }
+
+  public boolean isPhoneError() {
+    return (getErrorMessage.getText()).equals("Telephone must be between 3 and 32 characters!");
+  }
+
+  public boolean isPasswordError() {
+    return (getErrorMessage.getText()).equals("Password must be between 4 and 20 characters!");
+  }
+
+  public boolean isConfirmError() {
+    return (getErrorMessage.getText()).equals("Password confirmation does not match password!");
   }
 
   @FindBy(id = "input-firstname")
-  public WebElement getFirstNameField;
+  WebElement getFirstNameField;
 
   @FindBy(id = "input-lastname")
-  public WebElement getLastNameField;
+  WebElement getLastNameField;
 
   @FindBy(id = "input-email")
-  public WebElement getEmailField;
+  WebElement getEmailField;
 
   @FindBy(id = "input-telephone")
-  public WebElement getTelephoneField;
+  WebElement getTelephoneField;
 
   @FindBy(id = "input-password")
-  public WebElement getPasswordField;
+  WebElement getPasswordField;
 
   @FindBy(id = "input-confirm")
-  public WebElement getPasswordConfirmField;
+  WebElement getPasswordConfirmField;
 
   @FindBy(name = "agree")
-  public WebElement getPrivacyPolicyCheckbox;
+  WebElement privacyPolicyCheckbox;
 
   @FindBy(linkText = "Privacy Policy")
-  public WebElement getPrivacyPolicyLinkText;
+  WebElement privacyPolicyLinkText;
 
   @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[1]/button")
-  public WebElement getPrivacyPolicyWindowCloseButton;
+  WebElement privacyPolicyWindowCloseButton;
 
   @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[2]")
-  public WebElement getContinueButton;
+  WebElement getContinueButton;
 
-  @FindBy(xpath = "//*[@id=\"account\"]/div[4]/div/div")
-  public WebElement getEmailErrorMessage;
+  @FindBy(className = "text-danger")
+  WebElement getErrorMessage;
 
   public void signUp(String firstName, String lastName, String email, String telephone, String password, String confirm) {
+    LOG.info("signup called");
+    LOG.trace("first name + " + firstName);
+    LOG.trace("last name + " + lastName);
+    LOG.trace("email + " + email);
+    LOG.trace("phone + " + telephone);
+    LOG.trace("password + " + password);
+    LOG.trace("confir + " + confirm);
+
     getFirstNameField.sendKeys(firstName);
     getLastNameField.sendKeys(lastName);
     getEmailField.sendKeys(email);
     getTelephoneField.sendKeys(telephone);
     getPasswordField.sendKeys(password);
     getPasswordConfirmField.sendKeys(confirm);
-    getPrivacyPolicyCheckbox.click();
+    privacyPolicyCheckbox.click();
+
+    LOG.info("signup finished");
     getContinueButton.click();
+  }
+
+  public void signUpFieldClear() {
+    getFirstNameField.clear();
+    getLastNameField.clear();
+    getEmailField.clear();
+    getTelephoneField.clear();
+    getPasswordField.clear();
+    getPasswordConfirmField.clear();
+    privacyPolicyCheckbox.click();
+  }
+
+  public WebElement getPrivacyPolicyLinkText() {
+    return privacyPolicyLinkText;
+  }
+
+  public WebElement getPrivacyPolicyCheckbox() {
+    return privacyPolicyCheckbox;
+  }
+
+  public WebElement getPrivacyPolicyWindowCloseButton() {
+    return privacyPolicyWindowCloseButton;
   }
 }
