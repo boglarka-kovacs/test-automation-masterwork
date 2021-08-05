@@ -1,0 +1,11 @@
+first name, last name, email, telephone, password, confirm
+"", Elek, failedsignup@example.com,123456, success, success
+123456789012345678901234567890123, Elek, failedsignup@example.com,123456, success, success
+Teszt, "", failedsignup@example.com, 123456, success, success
+Teszt, Tesztelek harminchárom karakterre, failedsignup@example.com, 123456, success, success
+Teszt, Elek, "" ,123456, success, success
+Teszt, Elek, failedsignup@example.com, 12, success, success
+Teszt, Elek, failedsignup@example.com, 123456789-123456789-123456789-123, success, success
+Teszt, Elek, failedsignup@example.com, 123456, pas, pas
+Teszt, Elek, failedsignup@example.com, 123456, success, ""
+Teszt, Elek, failedsignup@example.com, 123456, Tesztelek harminchárom karakterre, Tesztelek harminchárom karakterre
