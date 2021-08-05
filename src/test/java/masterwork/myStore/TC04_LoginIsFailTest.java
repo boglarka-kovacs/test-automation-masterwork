@@ -1,34 +1,47 @@
 package masterwork.myStore;
 
-import io.qameta.allure.Description;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Story;
+import static org.assertj.core.api.Assertions.*;
+import io.qameta.allure.*;
 import masterwork.myStore.Pages.HomePage;
 import masterwork.myStore.Pages.LoginPage;
-import org.assertj.core.api.Assertions;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestInstance;
+import org.junit.jupiter.params.ParameterizedTest;
+import org.junit.jupiter.params.provider.CsvFileSource;
 
 @Epic("Your Store User Handling")
 @Feature("login Feature")
-@Story("Failed login with correct username and incorrect password")
+@Story("Failed login with incorrect username or/and incorrect password")
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 public class TC04_LoginIsFailTest extends BaseTest{
 
-  @Test
-  @DisplayName("Login failed")
-  @Description("Login to Your Store with valid user, invalid pass")
-  public void loginIsFail() {
+  @BeforeAll
+  @Step("Open login page")
+  @Description("Open homepage and navigate to login page")
+  public void openLoginPage(){
     HomePage homePage = new HomePage(driver);
+
+    LOG.info("Start test=login");
+    homePage.open();
+
+    LOG.info("Open login page");
+    homePage.navigateToLogin();
+  }
+
+  @ParameterizedTest
+  @CsvFileSource(resources = "/failedLogin.csv", numLinesToSkip = 1)
+  @DisplayName("Login failed")
+  @Description("Login to Your Store with invalid user, invalid pass")
+  public void loginIsFail(String email, String password) throws InterruptedException {
     LoginPage loginPage = new LoginPage(driver);
 
-    homePage.open();
-    Assertions.assertThat(driver.getTitle()).isEqualTo("Your Store");
+    LOG.info("Called login page.login");
+    loginPage.login(email, password);
 
-    homePage.navigateToLogin();
-    Assertions.assertThat(driver.getTitle()).isEqualTo("Account Login");
-
-    loginPage.login("teszt@example.com", "failTry23");
-    Assertions.assertThat(loginPage.isError()).isTrue();
+    LOG.info("Check failed login message is loaded");
+    assertThat(loginPage.isError()).isTrue();
+    makeScreenshot(driver);
+    loginPage.loginFieldClear();
   }
 }
