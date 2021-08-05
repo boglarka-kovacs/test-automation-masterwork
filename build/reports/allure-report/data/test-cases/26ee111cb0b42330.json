@@ -1,0 +1,83 @@
+{
+  "uid" : "26ee111cb0b42330",
+  "name" : "Product listing success",
+  "fullName" : "masterwork.myStore.TC07_PaginationSuccessfulTest.listingProductsSecondPage",
+  "historyId" : "1af1765e5b57fbc525b1121b1e5b59d2",
+  "time" : {
+    "start" : 1628156005135,
+    "stop" : 1628156010520,
+    "duration" : 5385
+  },
+  "description" : "Test for successful multi-page listing of products",
+  "descriptionHtml" : "<p>Test for successful multi-page listing of products</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test for successful multi-page listing of products",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8ea1ffa93bc2e5d3",
+      "name" : "Screenshot",
+      "source" : "8ea1ffa93bc2e5d3.png",
+      "type" : "image/png",
+      "size" : 254563
+    }, {
+      "uid" : "9576f2d1d278e882",
+      "name" : "Screenshot",
+      "source" : "9576f2d1d278e882.png",
+      "type" : "image/png",
+      "size" : 146104
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store Product Handling"
+  }, {
+    "name" : "feature",
+    "value" : "Product listing Feature"
+  }, {
+    "name" : "story",
+    "value" : "Successfully list more then one page of products"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3C7LH7J"
+  }, {
+    "name" : "thread",
+    "value" : "13240@DESKTOP-3C7LH7J.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "masterwork.myStore.TC07_PaginationSuccessfulTest"
+  }, {
+    "name" : "testClass",
+    "value" : "masterwork.myStore.TC07_PaginationSuccessfulTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "listingProductsSecondPage"
+  }, {
+    "name" : "suite",
+    "value" : "masterwork.myStore.TC07_PaginationSuccessfulTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "26ee111cb0b42330.json",
+  "parameterValues" : [ ]
+}

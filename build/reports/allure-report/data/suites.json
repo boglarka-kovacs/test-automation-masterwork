@@ -1,0 +1,365 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "masterwork.myStore.TC01_SignUpIsSuccessTest",
+    "children" : [ {
+      "name" : "Signup success",
+      "uid" : "c665f651c94dc5c2",
+      "parentUid" : "795cdcd555078d6eba0182a3947f1cb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155908811,
+        "stop" : 1628155915068,
+        "duration" : 6257
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "795cdcd555078d6eba0182a3947f1cb2"
+  }, {
+    "name" : "masterwork.myStore.TC02_SignUpIsFailTest",
+    "children" : [ {
+      "name" : "[1] , Elek, failedsignup@example.com, 123456, success, success",
+      "uid" : "4bb53a54dc11a03c",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155922509,
+        "stop" : 1628155926665,
+        "duration" : 4156
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] 123456789012345678901234567890123, Elek, failedsignup@example.com, 123456, success, success",
+      "uid" : "e3b2862a6db80f91",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155926685,
+        "stop" : 1628155930650,
+        "duration" : 3965
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] Teszt, , failedsignup@example.com, 123456, success, success",
+      "uid" : "5a46e85d9a4244bc",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155930659,
+        "stop" : 1628155934569,
+        "duration" : 3910
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[4] Teszt, Tesztelek harminch�rom karakterre, failedsignup@example.com, 123456, success, success",
+      "uid" : "2edf770f4f7044eb",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155934577,
+        "stop" : 1628155938553,
+        "duration" : 3976
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[5] Teszt, Elek, , 123456, success, success",
+      "uid" : "8fa14f217b2088f8",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155938560,
+        "stop" : 1628155942436,
+        "duration" : 3876
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[6] Teszt, Elek, failedsignup@example.com, 12, success, success",
+      "uid" : "f9ffa07a10e2f1e8",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155942444,
+        "stop" : 1628155946337,
+        "duration" : 3893
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[7] Teszt, Elek, failedsignup@example.com, 123456789-123456789-123456789-123, success, success",
+      "uid" : "f57858a2d9578b6d",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155946344,
+        "stop" : 1628155950253,
+        "duration" : 3909
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[8] Teszt, Elek, failedsignup@example.com, 123456, pas, pas",
+      "uid" : "43b854f905b39da3",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155950260,
+        "stop" : 1628155954138,
+        "duration" : 3878
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[9] Teszt, Elek, failedsignup@example.com, 123456, success, ",
+      "uid" : "847cf640c5213815",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155954146,
+        "stop" : 1628155958092,
+        "duration" : 3946
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[10] Teszt, Elek, failedsignup@example.com, 123456, Tesztelek harminch�rom karakterre, Tesztelek harminch�rom karakterre",
+      "uid" : "33f8514bd5b22c1b",
+      "parentUid" : "b657c08ad172b630bb36d505d5308e5f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1628155958100,
+        "stop" : 1628155960466,
+        "duration" : 2366
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b657c08ad172b630bb36d505d5308e5f"
+  }, {
+    "name" : "masterwork.myStore.TC03_LoginIsSuccessTest",
+    "children" : [ {
+      "name" : "Login success",
+      "uid" : "8869a2ce9f4dda4",
+      "parentUid" : "b80fbcdda77884543d1f5bc09371ccd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155964499,
+        "stop" : 1628155968391,
+        "duration" : 3892
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b80fbcdda77884543d1f5bc09371ccd6"
+  }, {
+    "name" : "masterwork.myStore.TC04_LoginIsFailTest",
+    "children" : [ {
+      "name" : "[1] teszt@example.com, failTry23",
+      "uid" : "ba5eecc213c0d2b",
+      "parentUid" : "2cea05431cf30a709d7eb31b55064956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155974607,
+        "stop" : 1628155976589,
+        "duration" : 1982
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[2] tezt@example.com, successTry23",
+      "uid" : "f21859e44731bc4a",
+      "parentUid" : "2cea05431cf30a709d7eb31b55064956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155976598,
+        "stop" : 1628155978783,
+        "duration" : 2185
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[3] tezt@example, failTry23",
+      "uid" : "24121cb7ed1fcfbd",
+      "parentUid" : "2cea05431cf30a709d7eb31b55064956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155978783,
+        "stop" : 1628155980847,
+        "duration" : 2064
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[4] , failTry23\"",
+      "uid" : "539b743ab1044f64",
+      "parentUid" : "2cea05431cf30a709d7eb31b55064956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155980855,
+        "stop" : 1628155982890,
+        "duration" : 2035
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[5] teszt@example.com, ",
+      "uid" : "5c88a5c44e1268c6",
+      "parentUid" : "2cea05431cf30a709d7eb31b55064956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155982905,
+        "stop" : 1628155984896,
+        "duration" : 1991
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "[6] , ",
+      "uid" : "320f4c79dad0bcc8",
+      "parentUid" : "2cea05431cf30a709d7eb31b55064956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155984896,
+        "stop" : 1628155986835,
+        "duration" : 1939
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2cea05431cf30a709d7eb31b55064956"
+  }, {
+    "name" : "masterwork.myStore.TC05_PrivacyPolicyOpenAndCheckTest",
+    "children" : [ {
+      "name" : "Privacy Policy check",
+      "uid" : "e4012586ab30a223",
+      "parentUid" : "26ede94a5052c7c378cd768d06f6d3e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155990425,
+        "stop" : 1628155994484,
+        "duration" : 4059
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "26ede94a5052c7c378cd768d06f6d3e7"
+  }, {
+    "name" : "masterwork.myStore.TC06_ProductListingTest",
+    "children" : [ {
+      "name" : "Product listing success",
+      "uid" : "a26bdd65b371dbb8",
+      "parentUid" : "cd993520f9130579b5af2141e81762cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628155998193,
+        "stop" : 1628156001758,
+        "duration" : 3565
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "cd993520f9130579b5af2141e81762cc"
+  }, {
+    "name" : "masterwork.myStore.TC07_PaginationSuccessfulTest",
+    "children" : [ {
+      "name" : "Product listing success",
+      "uid" : "26ee111cb0b42330",
+      "parentUid" : "a00ec9cc014893d16653e374abd65362",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628156005135,
+        "stop" : 1628156010520,
+        "duration" : 5385
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a00ec9cc014893d16653e374abd65362"
+  }, {
+    "name" : "masterwork.myStore.TC08_SendProductReviewSuccessTest",
+    "children" : [ {
+      "name" : "Product review success",
+      "uid" : "48c2c99f8341f244",
+      "parentUid" : "f35be24260d68f4a4297c85c78ba3375",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628156014032,
+        "stop" : 1628156018248,
+        "duration" : 4216
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f35be24260d68f4a4297c85c78ba3375"
+  }, {
+    "name" : "masterwork.myStore.TC10_DeleteAddressSuccessfulTest",
+    "children" : [ {
+      "name" : "Data deleting success",
+      "uid" : "725ba27f446627e6",
+      "parentUid" : "e3ef3c93a9c6860444b8b3b1095e127b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628156029740,
+        "stop" : 1628156035652,
+        "duration" : 5912
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "e3ef3c93a9c6860444b8b3b1095e127b"
+  }, {
+    "name" : "masterwork.myStore.TC11_SaveMoreProductDataToFilesTest",
+    "children" : [ {
+      "name" : "Product description saving success",
+      "uid" : "450a367207efb75a",
+      "parentUid" : "027df761104298268d14f241a1bbfcec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628156039331,
+        "stop" : 1628156047063,
+        "duration" : 7732
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "027df761104298268d14f241a1bbfcec"
+  }, {
+    "name" : "masterwork.myStore.TC12_LogoutSuccessTest",
+    "children" : [ {
+      "name" : "Logout success",
+      "uid" : "5859c6b43751773c",
+      "parentUid" : "ac9d8ddbcc37caeba229bfc4018e9d54",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628156050434,
+        "stop" : 1628156054869,
+        "duration" : 4435
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "ac9d8ddbcc37caeba229bfc4018e9d54"
+  }, {
+    "name" : "masterwork.myStore.TC13_PasswordChangingSuccessTest",
+    "children" : [ {
+      "name" : "Data changing success",
+      "uid" : "214f7e5b47552786",
+      "parentUid" : "9ff8e744b1bd84c277b1f780057cc40a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1628156058389,
+        "stop" : 1628156066717,
+        "duration" : 8328
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "9ff8e744b1bd84c277b1f780057cc40a"
+  } ]
+}

@@ -1,0 +1,77 @@
+{
+  "uid" : "24121cb7ed1fcfbd",
+  "name" : "[3] tezt@example, failTry23",
+  "fullName" : "masterwork.myStore.TC04_LoginIsFailTest.loginIsFail",
+  "historyId" : "7552e72d7b24cc43d6603e86daeeffe4",
+  "time" : {
+    "start" : 1628155978783,
+    "stop" : 1628155980847,
+    "duration" : 2064
+  },
+  "description" : "Login to Your Store with invalid user, invalid pass",
+  "descriptionHtml" : "<p>Login to Your Store with invalid user, invalid pass</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Login to Your Store with invalid user, invalid pass",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1204c281f0dcd7bb",
+      "name" : "Screenshot",
+      "source" : "1204c281f0dcd7bb.png",
+      "type" : "image/png",
+      "size" : 75842
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store User Handling"
+  }, {
+    "name" : "feature",
+    "value" : "login Feature"
+  }, {
+    "name" : "story",
+    "value" : "Failed login with incorrect username or/and incorrect password"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3C7LH7J"
+  }, {
+    "name" : "thread",
+    "value" : "13240@DESKTOP-3C7LH7J.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "masterwork.myStore.TC04_LoginIsFailTest"
+  }, {
+    "name" : "testClass",
+    "value" : "masterwork.myStore.TC04_LoginIsFailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginIsFail"
+  }, {
+    "name" : "suite",
+    "value" : "masterwork.myStore.TC04_LoginIsFailTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24121cb7ed1fcfbd.json",
+  "parameterValues" : [ ]
+}

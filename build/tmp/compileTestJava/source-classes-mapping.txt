@@ -6,8 +6,10 @@ masterwork/myStore/Pages/MacBookPage.java
  masterwork.myStore.Pages.MacBookPage
 masterwork/myStore/Pages/MyAccountPage.java
  masterwork.myStore.Pages.MyAccountPage
-masterwork/myStore/TC01_SignUpIsSuccessTest.java
- masterwork.myStore.TC01_SignUpIsSuccessTest
+masterwork/myStore/TC06_ProductListingTest.java
+ masterwork.myStore.TC06_ProductListingTest
+masterwork/myStore/TC11_SaveMoreProductDataToFilesTest.java
+ masterwork.myStore.TC11_SaveMoreProductDataToFilesTest
 masterwork/myStore/Pages/SignUpPage.java
  masterwork.myStore.Pages.SignUpPage
 masterwork/myStore/Pages/AllDesktopProductsPage.java
@@ -16,6 +18,8 @@ masterwork/myStore/TC02_SignUpIsFailTest.java
  masterwork.myStore.TC02_SignUpIsFailTest
 masterwork/myStore/TC03_LoginIsSuccessTest.java
  masterwork.myStore.TC03_LoginIsSuccessTest
+masterwork/myStore/TC08_SendProductReviewSuccessTest.java
+ masterwork.myStore.TC08_SendProductReviewSuccessTest
 masterwork/myStore/Pages/LoginPage.java
  masterwork.myStore.Pages.LoginPage
 masterwork/myStore/TC05_PrivacyPolicyOpenAndCheckTest.java
@@ -28,15 +32,17 @@ masterwork/myStore/TC04_LoginIsFailTest.java
  masterwork.myStore.TC04_LoginIsFailTest
 masterwork/myStore/Pages/PhonesAndPDAsPage.java
  masterwork.myStore.Pages.PhonesAndPDAsPage
+masterwork/myStore/TC13_PasswordChangingSuccessTest.java
+ masterwork.myStore.TC13_PasswordChangingSuccessTest
+masterwork/myStore/TC12_LogoutSuccessTest.java
+ masterwork.myStore.TC12_LogoutSuccessTest
+masterwork/myStore/TC01_SignUpIsSuccessTest.java
+ masterwork.myStore.TC01_SignUpIsSuccessTest
 masterwork/myStore/Pages/AddressBookModifyPage.java
  masterwork.myStore.Pages.AddressBookModifyPage
-masterwork/myStore/TC06_ProductListingTest.java
- masterwork.myStore.TC06_ProductListingTest
-masterwork/myStore/TC10_PasswordChangingSuccessTest.java
- masterwork.myStore.TC10_PasswordChangingSuccessTest
-masterwork/myStore/TC09_RepetitiveDataEntryTest.java
- masterwork.myStore.TC09_RepetitiveDataEntryTest
 masterwork/myStore/TC07_PaginationSuccessfulTest.java
  masterwork.myStore.TC07_PaginationSuccessfulTest
-masterwork/myStore/TC08_SendProductReviewSuccessTest.java
- masterwork.myStore.TC08_SendProductReviewSuccessTest
+masterwork/myStore/TC10_DeleteAddressSuccessfulTest.java
+ masterwork.myStore.TC10_DeleteAddressSuccessfulTest
+masterwork/myStore/TC09_RepetitiveDataEntryTest.java
+ masterwork.myStore.TC09_RepetitiveDataEntryTest

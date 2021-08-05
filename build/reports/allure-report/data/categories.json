@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".text\\-danger\"}\n  (Session info: chrome=92.0.4515.131)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-3C7LH7J', ip: '192.168.0.94', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.131, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: C:\\Users\\BOB\\AppData\\Local\\...}, goog:chromeOptions: {debuggerAddress: localhost:58782}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 84e8356a4116099d4c0665c762cd939d\n*** Element info: {Using=class name, value=text-danger}",
+      "children" : [ {
+        "name" : "[10] Teszt, Elek, failedsignup@example.com, 123456, Tesztelek harminch�rom karakterre, Tesztelek harminch�rom karakterre",
+        "uid" : "33f8514bd5b22c1b",
+        "parentUid" : "15d6446d35fee1aded0238011327526e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628155958100,
+          "stop" : 1628155960466,
+          "duration" : 2366
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15d6446d35fee1aded0238011327526e"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

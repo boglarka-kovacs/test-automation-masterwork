@@ -1,0 +1,325 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-3C7LH7J",
+    "children" : [ {
+      "name" : "13240@DESKTOP-3C7LH7J.Test worker(11)",
+      "children" : [ {
+        "name" : "[1] , Elek, failedsignup@example.com, 123456, success, success",
+        "uid" : "4bb53a54dc11a03c",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155922509,
+          "stop" : 1628155926665,
+          "duration" : 4156
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[3] Teszt, , failedsignup@example.com, 123456, success, success",
+        "uid" : "5a46e85d9a4244bc",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155930659,
+          "stop" : 1628155934569,
+          "duration" : 3910
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Data changing success",
+        "uid" : "214f7e5b47552786",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628156058389,
+          "stop" : 1628156066717,
+          "duration" : 8328
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] tezt@example.com, successTry23",
+        "uid" : "f21859e44731bc4a",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155976598,
+          "stop" : 1628155978783,
+          "duration" : 2185
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Product review success",
+        "uid" : "48c2c99f8341f244",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628156014032,
+          "stop" : 1628156018248,
+          "duration" : 4216
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[9] Teszt, Elek, failedsignup@example.com, 123456, success, ",
+        "uid" : "847cf640c5213815",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155954146,
+          "stop" : 1628155958092,
+          "duration" : 3946
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[2] 123456789012345678901234567890123, Elek, failedsignup@example.com, 123456, success, success",
+        "uid" : "e3b2862a6db80f91",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155926685,
+          "stop" : 1628155930650,
+          "duration" : 3965
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Data deleting success",
+        "uid" : "725ba27f446627e6",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628156029740,
+          "stop" : 1628156035652,
+          "duration" : 5912
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Signup success",
+        "uid" : "c665f651c94dc5c2",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155908811,
+          "stop" : 1628155915068,
+          "duration" : 6257
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Product listing success",
+        "uid" : "26ee111cb0b42330",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628156005135,
+          "stop" : 1628156010520,
+          "duration" : 5385
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] , failTry23\"",
+        "uid" : "539b743ab1044f64",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155980855,
+          "stop" : 1628155982890,
+          "duration" : 2035
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Privacy Policy check",
+        "uid" : "e4012586ab30a223",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155990425,
+          "stop" : 1628155994484,
+          "duration" : 4059
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Product description saving success",
+        "uid" : "450a367207efb75a",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628156039331,
+          "stop" : 1628156047063,
+          "duration" : 7732
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[3] tezt@example, failTry23",
+        "uid" : "24121cb7ed1fcfbd",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155978783,
+          "stop" : 1628155980847,
+          "duration" : 2064
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[6] , ",
+        "uid" : "320f4c79dad0bcc8",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155984896,
+          "stop" : 1628155986835,
+          "duration" : 1939
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[6] Teszt, Elek, failedsignup@example.com, 12, success, success",
+        "uid" : "f9ffa07a10e2f1e8",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155942444,
+          "stop" : 1628155946337,
+          "duration" : 3893
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Product listing success",
+        "uid" : "a26bdd65b371dbb8",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155998193,
+          "stop" : 1628156001758,
+          "duration" : 3565
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Logout success",
+        "uid" : "5859c6b43751773c",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628156050434,
+          "stop" : 1628156054869,
+          "duration" : 4435
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[8] Teszt, Elek, failedsignup@example.com, 123456, pas, pas",
+        "uid" : "43b854f905b39da3",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155950260,
+          "stop" : 1628155954138,
+          "duration" : 3878
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[5] teszt@example.com, ",
+        "uid" : "5c88a5c44e1268c6",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155982905,
+          "stop" : 1628155984896,
+          "duration" : 1991
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Login success",
+        "uid" : "8869a2ce9f4dda4",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155964499,
+          "stop" : 1628155968391,
+          "duration" : 3892
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[1] teszt@example.com, failTry23",
+        "uid" : "ba5eecc213c0d2b",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155974607,
+          "stop" : 1628155976589,
+          "duration" : 1982
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[10] Teszt, Elek, failedsignup@example.com, 123456, Tesztelek harminch�rom karakterre, Tesztelek harminch�rom karakterre",
+        "uid" : "33f8514bd5b22c1b",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1628155958100,
+          "stop" : 1628155960466,
+          "duration" : 2366
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[4] Teszt, Tesztelek harminch�rom karakterre, failedsignup@example.com, 123456, success, success",
+        "uid" : "2edf770f4f7044eb",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155934577,
+          "stop" : 1628155938553,
+          "duration" : 3976
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[5] Teszt, Elek, , 123456, success, success",
+        "uid" : "8fa14f217b2088f8",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155938560,
+          "stop" : 1628155942436,
+          "duration" : 3876
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "[7] Teszt, Elek, failedsignup@example.com, 123456789-123456789-123456789-123, success, success",
+        "uid" : "f57858a2d9578b6d",
+        "parentUid" : "fa195e15cee4ac166cda9d5c63e71ff4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1628155946344,
+          "stop" : 1628155950253,
+          "duration" : 3909
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa195e15cee4ac166cda9d5c63e71ff4"
+    } ],
+    "uid" : "d414f9a6b6413916ba82359b34cb7a03"
+  } ]
+}

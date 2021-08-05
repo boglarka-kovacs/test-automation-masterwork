@@ -1,0 +1,114 @@
+{
+  "total" : 12,
+  "items" : [ {
+    "uid" : "b657c08ad172b630bb36d505d5308e5f",
+    "name" : "masterwork.myStore.TC02_SignUpIsFailTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "2cea05431cf30a709d7eb31b55064956",
+    "name" : "masterwork.myStore.TC04_LoginIsFailTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "795cdcd555078d6eba0182a3947f1cb2",
+    "name" : "masterwork.myStore.TC01_SignUpIsSuccessTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "b80fbcdda77884543d1f5bc09371ccd6",
+    "name" : "masterwork.myStore.TC03_LoginIsSuccessTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "26ede94a5052c7c378cd768d06f6d3e7",
+    "name" : "masterwork.myStore.TC05_PrivacyPolicyOpenAndCheckTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "cd993520f9130579b5af2141e81762cc",
+    "name" : "masterwork.myStore.TC06_ProductListingTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "a00ec9cc014893d16653e374abd65362",
+    "name" : "masterwork.myStore.TC07_PaginationSuccessfulTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "f35be24260d68f4a4297c85c78ba3375",
+    "name" : "masterwork.myStore.TC08_SendProductReviewSuccessTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "e3ef3c93a9c6860444b8b3b1095e127b",
+    "name" : "masterwork.myStore.TC10_DeleteAddressSuccessfulTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "027df761104298268d14f241a1bbfcec",
+    "name" : "masterwork.myStore.TC11_SaveMoreProductDataToFilesTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

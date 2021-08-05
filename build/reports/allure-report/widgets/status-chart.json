@@ -1,0 +1,261 @@
+[ {
+  "uid" : "4bb53a54dc11a03c",
+  "name" : "[1] , Elek, failedsignup@example.com, 123456, success, success",
+  "time" : {
+    "start" : 1628155922509,
+    "stop" : 1628155926665,
+    "duration" : 4156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a46e85d9a4244bc",
+  "name" : "[3] Teszt, , failedsignup@example.com, 123456, success, success",
+  "time" : {
+    "start" : 1628155930659,
+    "stop" : 1628155934569,
+    "duration" : 3910
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "214f7e5b47552786",
+  "name" : "Data changing success",
+  "time" : {
+    "start" : 1628156058389,
+    "stop" : 1628156066717,
+    "duration" : 8328
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f21859e44731bc4a",
+  "name" : "[2] tezt@example.com, successTry23",
+  "time" : {
+    "start" : 1628155976598,
+    "stop" : 1628155978783,
+    "duration" : 2185
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48c2c99f8341f244",
+  "name" : "Product review success",
+  "time" : {
+    "start" : 1628156014032,
+    "stop" : 1628156018248,
+    "duration" : 4216
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "847cf640c5213815",
+  "name" : "[9] Teszt, Elek, failedsignup@example.com, 123456, success, ",
+  "time" : {
+    "start" : 1628155954146,
+    "stop" : 1628155958092,
+    "duration" : 3946
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3b2862a6db80f91",
+  "name" : "[2] 123456789012345678901234567890123, Elek, failedsignup@example.com, 123456, success, success",
+  "time" : {
+    "start" : 1628155926685,
+    "stop" : 1628155930650,
+    "duration" : 3965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "725ba27f446627e6",
+  "name" : "Data deleting success",
+  "time" : {
+    "start" : 1628156029740,
+    "stop" : 1628156035652,
+    "duration" : 5912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c665f651c94dc5c2",
+  "name" : "Signup success",
+  "time" : {
+    "start" : 1628155908811,
+    "stop" : 1628155915068,
+    "duration" : 6257
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26ee111cb0b42330",
+  "name" : "Product listing success",
+  "time" : {
+    "start" : 1628156005135,
+    "stop" : 1628156010520,
+    "duration" : 5385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "539b743ab1044f64",
+  "name" : "[4] , failTry23\"",
+  "time" : {
+    "start" : 1628155980855,
+    "stop" : 1628155982890,
+    "duration" : 2035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4012586ab30a223",
+  "name" : "Privacy Policy check",
+  "time" : {
+    "start" : 1628155990425,
+    "stop" : 1628155994484,
+    "duration" : 4059
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "450a367207efb75a",
+  "name" : "Product description saving success",
+  "time" : {
+    "start" : 1628156039331,
+    "stop" : 1628156047063,
+    "duration" : 7732
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24121cb7ed1fcfbd",
+  "name" : "[3] tezt@example, failTry23",
+  "time" : {
+    "start" : 1628155978783,
+    "stop" : 1628155980847,
+    "duration" : 2064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "320f4c79dad0bcc8",
+  "name" : "[6] , ",
+  "time" : {
+    "start" : 1628155984896,
+    "stop" : 1628155986835,
+    "duration" : 1939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9ffa07a10e2f1e8",
+  "name" : "[6] Teszt, Elek, failedsignup@example.com, 12, success, success",
+  "time" : {
+    "start" : 1628155942444,
+    "stop" : 1628155946337,
+    "duration" : 3893
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a26bdd65b371dbb8",
+  "name" : "Product listing success",
+  "time" : {
+    "start" : 1628155998193,
+    "stop" : 1628156001758,
+    "duration" : 3565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5859c6b43751773c",
+  "name" : "Logout success",
+  "time" : {
+    "start" : 1628156050434,
+    "stop" : 1628156054869,
+    "duration" : 4435
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43b854f905b39da3",
+  "name" : "[8] Teszt, Elek, failedsignup@example.com, 123456, pas, pas",
+  "time" : {
+    "start" : 1628155950260,
+    "stop" : 1628155954138,
+    "duration" : 3878
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c88a5c44e1268c6",
+  "name" : "[5] teszt@example.com, ",
+  "time" : {
+    "start" : 1628155982905,
+    "stop" : 1628155984896,
+    "duration" : 1991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8869a2ce9f4dda4",
+  "name" : "Login success",
+  "time" : {
+    "start" : 1628155964499,
+    "stop" : 1628155968391,
+    "duration" : 3892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba5eecc213c0d2b",
+  "name" : "[1] teszt@example.com, failTry23",
+  "time" : {
+    "start" : 1628155974607,
+    "stop" : 1628155976589,
+    "duration" : 1982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "33f8514bd5b22c1b",
+  "name" : "[10] Teszt, Elek, failedsignup@example.com, 123456, Tesztelek harminch�rom karakterre, Tesztelek harminch�rom karakterre",
+  "time" : {
+    "start" : 1628155958100,
+    "stop" : 1628155960466,
+    "duration" : 2366
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2edf770f4f7044eb",
+  "name" : "[4] Teszt, Tesztelek harminch�rom karakterre, failedsignup@example.com, 123456, success, success",
+  "time" : {
+    "start" : 1628155934577,
+    "stop" : 1628155938553,
+    "duration" : 3976
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fa14f217b2088f8",
+  "name" : "[5] Teszt, Elek, , 123456, success, success",
+  "time" : {
+    "start" : 1628155938560,
+    "stop" : 1628155942436,
+    "duration" : 3876
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f57858a2d9578b6d",
+  "name" : "[7] Teszt, Elek, failedsignup@example.com, 123456789-123456789-123456789-123, success, success",
+  "time" : {
+    "start" : 1628155946344,
+    "stop" : 1628155950253,
+    "duration" : 3909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

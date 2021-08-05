@@ -1,0 +1,7 @@
+email, password
+teszt@example.com, failTry23
+tezt@example.com, successTry23
+tezt@example, failTry23
+"", failTry23"
+teszt@example.com, ""
+"",""
