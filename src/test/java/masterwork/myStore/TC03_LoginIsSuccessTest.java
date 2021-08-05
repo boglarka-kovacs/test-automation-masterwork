@@ -14,18 +14,25 @@ import org.junit.jupiter.api.Test;
 @Feature("login Feature")
 @Story("Successfully login with correct email and password")
 public class TC03_LoginIsSuccessTest extends BaseTest{
+  HomePage homePage = new HomePage(driver);
+  LoginPage loginPage = new LoginPage(driver);
 
   @Test
   @DisplayName("Login success")
   @Description("Login to Your Store with valid user, and pass")
   public void loginIsSuccessful() {
-    HomePage homePage = new HomePage(driver);
-    LoginPage loginPage = new LoginPage(driver);
 
+    LOG.info("Start test=login");
     homePage.open();
+
+    LOG.info("Open login page");
     homePage.navigateToLogin();
 
+    LOG.info("Called login page.login");
     loginPage.login("teszt@example.com", "successTry23");
+
+    LOG.info("Check success login page is loaded");
     Assertions.assertThat(driver.getTitle()).isEqualTo("My Account");
+    makeScreenshot(driver);
   }
 }
