@@ -19,8 +19,15 @@ public class ChangePasswordPage extends BasePage{
   public WebElement getSubmitButton;
 
   public void sendNewPassword(String password, String confirm) {
+    LOG.info("change password called");
+    LOG.trace("password + " + password);
+    LOG.trace("confirm + " + confirm);
+
     getPasswordField.sendKeys(password);
     getConfirmPasswordField.sendKeys(confirm);
+
+    LOG.info("change password finished");
     getSubmitButton.click();
   }
 }
+
