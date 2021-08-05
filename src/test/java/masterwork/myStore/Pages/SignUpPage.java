@@ -1,5 +1,6 @@
 package masterwork.myStore.Pages;
 
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -66,6 +67,11 @@ public class SignUpPage extends BasePage{
 
   @FindBy(className = "text-danger")
   WebElement getErrorMessage;
+
+// Random email generating if necessary. Please rewrite email to randomEmail in signUp method if you use it.
+//  String randomEmail() {
+//    return  ("teszt" + RandomStringUtils.randomAlphabetic(3) + "@example.com");
+//  }
 
   public void signUp(String firstName, String lastName, String email, String telephone, String password, String confirm) {
     LOG.info("signup called");
