@@ -12,36 +12,45 @@ public class AddressBookModifyPage extends BasePage{
   }
 
   @FindBy(linkText = "New Address")
-  public WebElement newAddressButton;
+  WebElement newAddressButton;
+
   @FindBy(id = "input-firstname")
-  public WebElement inputFirstNameField;
+  WebElement inputFirstNameField;
 
   @FindBy(id = "input-lastname")
-  public WebElement inputLastNameField;
+  WebElement inputLastNameField;
 
   @FindBy(id = "input-address-1")
-  public WebElement inputAddressField;
+  WebElement inputAddressField;
 
   @FindBy(id= "input-city")
-  public WebElement inputCityField;
+  WebElement inputCityField;
 
   @FindBy(id = "input-postcode")
-  public WebElement inputPostCodeField;
+  WebElement inputPostCodeField;
 
   @FindBy(xpath = "//*[@id=\"content\"]/form/div/div[2]/input")
-  public WebElement continueButton;
+  WebElement continueButton;
 
   @FindBy(xpath = "//*[@id=\"account-address\"]/div[1]")
-  public WebElement successMessage;
+  WebElement successMessage;
 
   @FindBy(xpath = "//tbody/tr[3]/td[2]/a[2]")
-  public WebElement deleteButton;
+  WebElement deleteButton;
 
   @FindBy(xpath = "//*[@id='account-address']/div[1]")
-  public WebElement deletingSuccessMessage;
+  WebElement deletingSuccessMessage;
 
   public void addNewAddress(String firstName, String lastName, String address, String city, String postcode, String country) {
+    LOG.info("add new address called");
     newAddressButton.click();
+
+    LOG.trace("first name + " + firstName);
+    LOG.trace("last name + " + lastName);
+    LOG.trace("address + " + address);
+    LOG.trace("city + " +city);
+    LOG.trace("postcode + " + postcode);
+
     inputFirstNameField.sendKeys(firstName);
     inputLastNameField.sendKeys(lastName);
     inputAddressField.sendKeys(address);
@@ -49,6 +58,20 @@ public class AddressBookModifyPage extends BasePage{
     inputPostCodeField.sendKeys(postcode);
     Select countryChoose = new Select(driver.findElement(By.id("input-country")));
     countryChoose.selectByVisibleText(country);
+
+    LOG.info("add new address finished");
     continueButton.click();
   }
+  public WebElement getSuccessMessage() {
+    return successMessage;
+  }
+
+  public WebElement getDeleteButton() {
+    return deleteButton;
+  }
+
+  public WebElement getDeletingSuccessMessage() {
+    return deletingSuccessMessage;
+  }
 }
+
