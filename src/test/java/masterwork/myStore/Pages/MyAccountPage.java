@@ -5,16 +5,29 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class MyAccountPage extends BasePage{
+
   public MyAccountPage(WebDriver driver) {
     super(driver);
   }
 
   @FindBy(linkText = "Logout")
-  public WebElement getLogoutButton;
+  WebElement logoutButton;
 
   @FindBy(linkText = "Change your password")
-  public WebElement getPasswordChangeLink;
+  WebElement passwordChangeLink;
 
   @FindBy(linkText = "Modify your address book entries")
-  public WebElement getAddressBookModifyLink;
+  WebElement addressBookModifyLink;
+
+  public WebElement getLogoutButton() {
+    return logoutButton;
+  }
+
+  public WebElement getPasswordChangeLink() {
+    return passwordChangeLink;
+  }
+
+  public WebElement getAddressBookModifyLink() {
+    return addressBookModifyLink;
+  }
 }
