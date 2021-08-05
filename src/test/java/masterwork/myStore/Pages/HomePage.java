@@ -12,40 +12,66 @@ public class HomePage extends BasePage{
   }
 
   @FindBy(linkText = "My Account")
-  public WebElement myAccount;
+  WebElement myAccount;
 
   @FindBy(linkText = "Register")
-  public WebElement register;
+  WebElement register;
 
   @FindBy(linkText = "Login")
-  public WebElement login;
+  WebElement login;
 
   @FindBy(linkText = "Desktops")
-  public WebElement desktopsButton;
+  WebElement desktopsButton;
 
   @FindBy(linkText = "Show All Desktops")
-  public WebElement allDesktopsLink;
+  WebElement allDesktopsLink;
 
   @FindBy(xpath = "//*[@id=\"content\"]/div[2]/div[1]/div/div[1]/a/img")
-  public WebElement getProductImg;
+  WebElement productImg;
 
   @FindBy(linkText = "Phones & PDAs")
-  public WebElement phonesAndPDAsButton;
+  WebElement phonesAndPDAsButton;
 
   public void open() {
+    LOG.info("Open homepage");
     driver.get("http://test-automation-shop2.greenfox.academy/");
+
+    LOG.info("Check homepage is loaded");
     Assertions.assertThat(driver.getTitle()).isEqualTo("Your Store");
   }
 
   public void navigateToRegistration() {
+    LOG.info("Open registration page");
     myAccount.click();
     register.click();
+
+    LOG.info("Check registration form is loaded");
     Assertions.assertThat(driver.getTitle()).isEqualTo("Register Account");
   }
 
   public void navigateToLogin() {
+    LOG.info("Open login page");
     myAccount.click();
     login.click();
+
+    LOG.info("Check login form is loaded");
     Assertions.assertThat(driver.getTitle()).isEqualTo("Account Login");
   }
+
+  public WebElement getDesktopsButton() {
+    return desktopsButton;
+  }
+
+  public WebElement getAllDesktopsLink() {
+    return allDesktopsLink;
+  }
+
+  public WebElement getProductImg() {
+    return productImg;
+  }
+
+  public WebElement getPhonesAndPDAsButton() {
+    return phonesAndPDAsButton;
+  }
 }
+
