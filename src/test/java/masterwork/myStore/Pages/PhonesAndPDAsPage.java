@@ -3,7 +3,6 @@ package masterwork.myStore.Pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
@@ -14,19 +13,19 @@ public class PhonesAndPDAsPage extends BasePage{
   }
 
   @FindBy(xpath = "//*[@id='input-sort']/option[3]")
-  public WebElement sortingZToA;
+  WebElement sortingZToA;
 
   @FindBy(tagName = "h4")
-  public List<WebElement> elements;
+  List <WebElement> elements;
 
   @FindBy(xpath = "//*[@id='content']/div/div[2]/h1")
-  public WebElement title;
+  WebElement title;
 
   @FindBy(xpath = "//*[@id=\"content\"]/div/div[1]/div")
-  public WebElement description;
+  WebElement description;
 
   @FindBy(xpath = "//h4/a")
-  public List <WebElement> productsPage;
+  List <WebElement> productsPage;
 
   public void writeToFile() throws IOException {
     int size = 1;
@@ -43,4 +42,13 @@ public class PhonesAndPDAsPage extends BasePage{
       driver.navigate().back();
     }
   }
+
+  public WebElement getSortingZToA() {
+    return sortingZToA;
+  }
+
+  public List<WebElement> getElements() {
+    return elements;
+  }
 }
+
