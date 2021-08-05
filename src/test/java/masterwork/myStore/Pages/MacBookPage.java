@@ -10,28 +10,39 @@ public class MacBookPage extends BasePage{
   }
 
   @FindBy(linkText = "Reviews (0)")
-  public WebElement getReviewsLink;
+  WebElement getReviewsLink;
 
   @FindBy(css = "#input-name")
-  public WebElement getInputName;
+  WebElement getInputName;
 
   @FindBy(css = "#input-review")
-  public WebElement getReviewField;
+  WebElement getReviewField;
 
   @FindBy(xpath = "//input[@value='5']")
-  public WebElement getReviewRadioButton;
+  WebElement getReviewRadioButton;
 
   @FindBy(id = "button-review")
-  public WebElement getContinueButton;
+  WebElement getContinueButton;
 
   @FindBy(xpath = "//*[@id='form-review']/div[2]")
-  public WebElement getThankYouMessage;
+  WebElement thankYouMessage;
 
   public void sendReview(String name, String text) {
+    LOG.info("send review called");
     getReviewsLink.click();
+
+    LOG.trace("name + " + name);
     getInputName.sendKeys(name);
+
+    LOG.trace("text + " + text);
     getReviewField.sendKeys(text);
     getReviewRadioButton.click();
+
+    LOG.info("send review finished");
     getContinueButton.click();
+  }
+
+  public WebElement getGetThankYouMessage() {
+    return thankYouMessage;
   }
 }
