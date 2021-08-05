@@ -1,0 +1,25 @@
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not start step: no test case running
+[Test worker] INFO masterwork.myStore.BaseTest - Start test=account manage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check login form is loaded
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check user account page is loaded
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid ec69d342-8b44-44af-87cd-2d10f919d9fe not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid ec69d342-8b44-44af-87cd-2d10f919d9fe not found
+[Test worker] INFO masterwork.myStore.BaseTest - Add data to address book
+[Test worker] INFO masterwork.myStore.Pages.BasePage - add new address called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - add new address finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check success data added message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Add data to address book
+[Test worker] INFO masterwork.myStore.Pages.BasePage - add new address called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - add new address finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check success data added message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Add data to address book
+[Test worker] INFO masterwork.myStore.Pages.BasePage - add new address called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - add new address finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check success data added message is loaded
