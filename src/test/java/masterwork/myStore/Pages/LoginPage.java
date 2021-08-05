@@ -11,24 +11,34 @@ public class LoginPage extends BasePage{
   }
 
   public boolean isError() {
-    return getErrorMessage.isDisplayed();
+    return errorMessage.isDisplayed();
   }
 
-  @FindBy(id = "input-email")
-  public WebElement getEmailField;
+  @FindBy(name = "email")
+  WebElement emailField;
 
-  @FindBy(id = "input-password")
-  public WebElement getPasswordField;
+  @FindBy(name = "password")
+  WebElement passwordField;
 
   @FindBy(xpath = "//*[@id=\"content\"]/div/div[2]/div/form/input")
-  public WebElement getLoginButton;
+  WebElement loginButton;
 
   @FindBy(xpath = "//*[@id=\"account-login\"]/div[1]")
-  public WebElement getErrorMessage;
+  WebElement errorMessage;
 
   public void login(String email, String password) {
-    getEmailField.sendKeys(email);
-    getPasswordField.sendKeys(password);
-    getLoginButton.click();
+    LOG.info("login called");
+    LOG.trace("email = " + email);
+    LOG.trace("password + " + password);
+
+    emailField.sendKeys(email);
+    passwordField.sendKeys(password);
+
+    LOG.info("login finished");
+    loginButton.click();
+  }
+  public void loginFieldClear() {
+    emailField.clear();
+    passwordField.clear();
   }
 }
