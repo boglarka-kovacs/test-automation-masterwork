@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 @Epic("Your Store User Handling")
 @Feature("Data handling Feature")
 @Story("Successful address deleting")
-public class TC11_DeleteAddressSuccessfulTest extends BaseTest{
+public class TC10_DeleteAddressSuccessfulTest extends BaseTest{
   HomePage homePage = new HomePage(driver);
   LoginPage loginPage = new LoginPage(driver);
   MyAccountPage myAccount = new MyAccountPage(driver);
@@ -29,7 +29,7 @@ public class TC11_DeleteAddressSuccessfulTest extends BaseTest{
     LOG.info("Start test=Address Deleting");
     homePage.open();
     homePage.navigateToLogin();
-    loginPage.login("teszt@example.com", "newpass");
+    loginPage.login("teszt@example.com", "successTry23");
     myAccount.getAddressBookModifyLink().click();
 
     LOG.info("Check modify address page is loaded");
