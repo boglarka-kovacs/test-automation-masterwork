@@ -29,7 +29,7 @@ public class TC01_SignUpIsSuccessTest extends BaseTest{
     homePage.navigateToRegistration();
 
     LOG.info("Called signup page.signup");
-    signup.signUp("Teszt", "Elek", "teszt31@example.com",
+    signup.signUp("Teszt", "Elek", "teszt32@example.com",
             "122654398", "successTry23", "successTry23");
 
     LOG.info("Check signup success page is loaded");
