@@ -1,0 +1,77 @@
+{
+  "uid" : "599231c65ebd89f2",
+  "name" : "Privacy Policy check",
+  "fullName" : "masterwork.myStore.TC05_PrivacyPolicyOpenAndCheckTest.openAndCheckThePrivacyPolicy",
+  "historyId" : "e68adbc34e93b7d6745693736763d575",
+  "time" : {
+    "start" : 1628267709816,
+    "stop" : 1628267713167,
+    "duration" : 3351
+  },
+  "description" : "Test for open Privacy Policy and check",
+  "descriptionHtml" : "<p>Test for open Privacy Policy and check</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test for open Privacy Policy and check",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e3fb7a090fc93826",
+      "name" : "Screenshot",
+      "source" : "e3fb7a090fc93826.png",
+      "type" : "image/png",
+      "size" : 84755
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store User Handling"
+  }, {
+    "name" : "feature",
+    "value" : "Signup Feature"
+  }, {
+    "name" : "story",
+    "value" : "Privacy Policy opening and checking"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3C7LH7J"
+  }, {
+    "name" : "thread",
+    "value" : "7328@DESKTOP-3C7LH7J.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "masterwork.myStore.TC05_PrivacyPolicyOpenAndCheckTest"
+  }, {
+    "name" : "testClass",
+    "value" : "masterwork.myStore.TC05_PrivacyPolicyOpenAndCheckTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "openAndCheckThePrivacyPolicy"
+  }, {
+    "name" : "suite",
+    "value" : "masterwork.myStore.TC05_PrivacyPolicyOpenAndCheckTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "599231c65ebd89f2.json",
+  "parameterValues" : [ ]
+}

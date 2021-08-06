@@ -1,260 +1,290 @@
 [ {
-  "uid" : "5c88a5c44e1268c6",
-  "name" : "[5] teszt@example.com, ",
+  "uid" : "53b514f49e7b1737",
+  "name" : "[1] , Elek, failedsignup@example.com, 123456, success, success",
   "time" : {
-    "start" : 1628155982905,
-    "stop" : 1628155984896,
-    "duration" : 1991
+    "start" : 1628267663617,
+    "stop" : 1628267664909,
+    "duration" : 1292
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f9ffa07a10e2f1e8",
+  "uid" : "246c266f68ee6524",
   "name" : "[6] Teszt, Elek, failedsignup@example.com, 12, success, success",
   "time" : {
-    "start" : 1628155942444,
-    "stop" : 1628155946337,
-    "duration" : 3893
+    "start" : 1628267669962,
+    "stop" : 1628267671285,
+    "duration" : 1323
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "26ee111cb0b42330",
+  "uid" : "83b83840868e48e4",
+  "name" : "[2] Tesztelő, Ödön, Fogyasztó utca 2, Budapest, 1139, Hungary",
+  "time" : {
+    "start" : 1628267742740,
+    "stop" : 1628267745331,
+    "duration" : 2591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cf045300b6e04f7",
+  "name" : "[4] , failTry23\"",
+  "time" : {
+    "start" : 1628267701369,
+    "stop" : 1628267703035,
+    "duration" : 1666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d750a31dfb726b7",
   "name" : "Product listing success",
   "time" : {
-    "start" : 1628156005135,
-    "stop" : 1628156010520,
-    "duration" : 5385
+    "start" : 1628267717235,
+    "stop" : 1628267719344,
+    "duration" : 2109
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c665f651c94dc5c2",
-  "name" : "Signup success",
-  "time" : {
-    "start" : 1628155908811,
-    "stop" : 1628155915068,
-    "duration" : 6257
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24121cb7ed1fcfbd",
-  "name" : "[3] tezt@example, failTry23",
-  "time" : {
-    "start" : 1628155978783,
-    "stop" : 1628155980847,
-    "duration" : 2064
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "320f4c79dad0bcc8",
+  "uid" : "d226785b9e009672",
   "name" : "[6] , ",
   "time" : {
-    "start" : 1628155984896,
-    "stop" : 1628155986835,
-    "duration" : 1939
+    "start" : 1628267704795,
+    "stop" : 1628267706386,
+    "duration" : 1591
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ba5eecc213c0d2b",
+  "uid" : "4d16c82f8c6fe51d",
   "name" : "[1] teszt@example.com, failTry23",
   "time" : {
-    "start" : 1628155974607,
-    "stop" : 1628155976589,
-    "duration" : 1982
+    "start" : 1628267696237,
+    "stop" : 1628267697799,
+    "duration" : 1562
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8869a2ce9f4dda4",
-  "name" : "Login success",
-  "time" : {
-    "start" : 1628155964499,
-    "stop" : 1628155968391,
-    "duration" : 3892
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2edf770f4f7044eb",
-  "name" : "[4] Teszt, Tesztelek harminch�rom karakterre, failedsignup@example.com, 123456, success, success",
-  "time" : {
-    "start" : 1628155934577,
-    "stop" : 1628155938553,
-    "duration" : 3976
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5a46e85d9a4244bc",
+  "uid" : "86c97367d8d2f8de",
   "name" : "[3] Teszt, , failedsignup@example.com, 123456, success, success",
   "time" : {
-    "start" : 1628155930659,
-    "stop" : 1628155934569,
-    "duration" : 3910
+    "start" : 1628267666200,
+    "stop" : 1628267667452,
+    "duration" : 1252
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "450a367207efb75a",
-  "name" : "Product description saving success",
-  "time" : {
-    "start" : 1628156039331,
-    "stop" : 1628156047063,
-    "duration" : 7732
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "43b854f905b39da3",
+  "uid" : "aa6ca326758e427a",
   "name" : "[8] Teszt, Elek, failedsignup@example.com, 123456, pas, pas",
   "time" : {
-    "start" : 1628155950260,
-    "stop" : 1628155954138,
-    "duration" : 3878
+    "start" : 1628267674013,
+    "stop" : 1628267677556,
+    "duration" : 3543
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f57858a2d9578b6d",
-  "name" : "[7] Teszt, Elek, failedsignup@example.com, 123456789-123456789-123456789-123, success, success",
+  "uid" : "f610be3887293256",
+  "name" : "[4] Teszt, Tesztelek harminch�rom karakterre, failedsignup@example.com, 123456, success, success",
   "time" : {
-    "start" : 1628155946344,
-    "stop" : 1628155950253,
-    "duration" : 3909
+    "start" : 1628267667455,
+    "stop" : 1628267668702,
+    "duration" : 1247
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e3b2862a6db80f91",
-  "name" : "[2] 123456789012345678901234567890123, Elek, failedsignup@example.com, 123456, success, success",
+  "uid" : "eb7d76975de6b27",
+  "name" : "[1] Tesztelő, Róza, Vásárló utca1, Budapest, 1139, Hungary",
   "time" : {
-    "start" : 1628155926685,
-    "stop" : 1628155930650,
-    "duration" : 3965
+    "start" : 1628267739806,
+    "stop" : 1628267742732,
+    "duration" : 2926
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "725ba27f446627e6",
-  "name" : "Data deleting success",
-  "time" : {
-    "start" : 1628156029740,
-    "stop" : 1628156035652,
-    "duration" : 5912
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5859c6b43751773c",
-  "name" : "Logout success",
-  "time" : {
-    "start" : 1628156050434,
-    "stop" : 1628156054869,
-    "duration" : 4435
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "8fa14f217b2088f8",
-  "name" : "[5] Teszt, Elek, , 123456, success, success",
-  "time" : {
-    "start" : 1628155938560,
-    "stop" : 1628155942436,
-    "duration" : 3876
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4012586ab30a223",
-  "name" : "Privacy Policy check",
-  "time" : {
-    "start" : 1628155990425,
-    "stop" : 1628155994484,
-    "duration" : 4059
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "214f7e5b47552786",
+  "uid" : "bc4658396bb53593",
   "name" : "Data changing success",
   "time" : {
-    "start" : 1628156058389,
-    "stop" : 1628156066717,
-    "duration" : 8328
+    "start" : 1628267775427,
+    "stop" : 1628267781638,
+    "duration" : 6211
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f21859e44731bc4a",
-  "name" : "[2] tezt@example.com, successTry23",
+  "uid" : "8bad665ab42ae480",
+  "name" : "Logout success",
   "time" : {
-    "start" : 1628155976598,
-    "stop" : 1628155978783,
-    "duration" : 2185
+    "start" : 1628267769028,
+    "stop" : 1628267771379,
+    "duration" : 2351
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a26bdd65b371dbb8",
+  "uid" : "7780567a87d37f40",
+  "name" : "Product description saving success",
+  "time" : {
+    "start" : 1628267759433,
+    "stop" : 1628267765132,
+    "duration" : 5699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "502c47b44ec751a5",
   "name" : "Product listing success",
   "time" : {
-    "start" : 1628155998193,
-    "stop" : 1628156001758,
-    "duration" : 3565
+    "start" : 1628267723935,
+    "stop" : 1628267727369,
+    "duration" : 3434
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "48c2c99f8341f244",
+  "uid" : "6112d78907ae7dbc",
+  "name" : "[2] 123456789012345678901234567890123, Elek, failedsignup@example.com, 123456, success, success",
+  "time" : {
+    "start" : 1628267664921,
+    "stop" : 1628267666197,
+    "duration" : 1276
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ec266e394b7ae49",
+  "name" : "[7] Teszt, Elek, failedsignup@example.com, 123456789-123456789-123456789-123, success, success",
+  "time" : {
+    "start" : 1628267671287,
+    "stop" : 1628267674005,
+    "duration" : 2718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb718a3514298077",
   "name" : "Product review success",
   "time" : {
-    "start" : 1628156014032,
-    "stop" : 1628156018248,
-    "duration" : 4216
+    "start" : 1628267731465,
+    "stop" : 1628267734129,
+    "duration" : 2664
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "33f8514bd5b22c1b",
+  "uid" : "6e38625f98e8909c",
+  "name" : "[3] tezt@example, failTry23",
+  "time" : {
+    "start" : 1628267699627,
+    "stop" : 1628267701362,
+    "duration" : 1735
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fd78e4ef91bed41",
+  "name" : "[5] Teszt, Elek, , 123456, success, success",
+  "time" : {
+    "start" : 1628267668705,
+    "stop" : 1628267669959,
+    "duration" : 1254
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e57b56559669e39",
+  "name" : "Login success",
+  "time" : {
+    "start" : 1628267687748,
+    "stop" : 1628267690515,
+    "duration" : 2767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7363df20583b489",
+  "name" : "Data deleting success",
+  "time" : {
+    "start" : 1628267751799,
+    "stop" : 1628267755580,
+    "duration" : 3781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4cde4e7120794bd9",
+  "name" : "[3] Tesztelő, Elek, Vásárló utca 3, Budapest, 1139, Hungary",
+  "time" : {
+    "start" : 1628267745338,
+    "stop" : 1628267747915,
+    "duration" : 2577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7701425b0ccebdb4",
+  "name" : "[9] Teszt, Elek, failedsignup@example.com, 123456, success, ",
+  "time" : {
+    "start" : 1628267677564,
+    "stop" : 1628267681113,
+    "duration" : 3549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "845c65b29c8c3733",
+  "name" : "[2] tezt@example.com, successTry23",
+  "time" : {
+    "start" : 1628267697807,
+    "stop" : 1628267699620,
+    "duration" : 1813
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "599231c65ebd89f2",
+  "name" : "Privacy Policy check",
+  "time" : {
+    "start" : 1628267709816,
+    "stop" : 1628267713167,
+    "duration" : 3351
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "926d50a87ae16e46",
   "name" : "[10] Teszt, Elek, failedsignup@example.com, 123456, Tesztelek harminch�rom karakterre, Tesztelek harminch�rom karakterre",
   "time" : {
-    "start" : 1628155958100,
-    "stop" : 1628155960466,
-    "duration" : 2366
+    "start" : 1628267681122,
+    "stop" : 1628267683110,
+    "duration" : 1988
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "847cf640c5213815",
-  "name" : "[9] Teszt, Elek, failedsignup@example.com, 123456, success, ",
+  "uid" : "7b82326f6519e374",
+  "name" : "Signup success",
   "time" : {
-    "start" : 1628155954146,
-    "stop" : 1628155958092,
-    "duration" : 3946
+    "start" : 1628267657302,
+    "stop" : 1628267660162,
+    "duration" : 2860
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4bb53a54dc11a03c",
-  "name" : "[1] , Elek, failedsignup@example.com, 123456, success, success",
+  "uid" : "2e93ab2cf70146e7",
+  "name" : "[5] teszt@example.com, ",
   "time" : {
-    "start" : 1628155922509,
-    "stop" : 1628155926665,
-    "duration" : 4156
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "539b743ab1044f64",
-  "name" : "[4] , failTry23\"",
-  "time" : {
-    "start" : 1628155980855,
-    "stop" : 1628155982890,
-    "duration" : 2035
+    "start" : 1628267703051,
+    "stop" : 1628267704780,
+    "duration" : 1729
   },
   "status" : "passed",
   "severity" : "normal"

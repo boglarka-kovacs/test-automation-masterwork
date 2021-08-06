@@ -1,0 +1,77 @@
+{
+  "uid" : "4d16c82f8c6fe51d",
+  "name" : "[1] teszt@example.com, failTry23",
+  "fullName" : "masterwork.myStore.TC04_LoginIsFailTest.loginIsFail",
+  "historyId" : "ec84655925a26e7934420ff1a8ed3e5c",
+  "time" : {
+    "start" : 1628267696237,
+    "stop" : 1628267697799,
+    "duration" : 1562
+  },
+  "description" : "Login to Your Store with invalid user, invalid pass",
+  "descriptionHtml" : "<p>Login to Your Store with invalid user, invalid pass</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Login to Your Store with invalid user, invalid pass",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff95f21d0769b8a",
+      "name" : "Screenshot",
+      "source" : "ff95f21d0769b8a.png",
+      "type" : "image/png",
+      "size" : 75982
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store User Handling"
+  }, {
+    "name" : "feature",
+    "value" : "login Feature"
+  }, {
+    "name" : "story",
+    "value" : "Failed login with incorrect username or/and incorrect password"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3C7LH7J"
+  }, {
+    "name" : "thread",
+    "value" : "7328@DESKTOP-3C7LH7J.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "masterwork.myStore.TC04_LoginIsFailTest"
+  }, {
+    "name" : "testClass",
+    "value" : "masterwork.myStore.TC04_LoginIsFailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginIsFail"
+  }, {
+    "name" : "suite",
+    "value" : "masterwork.myStore.TC04_LoginIsFailTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d16c82f8c6fe51d.json",
+  "parameterValues" : [ ]
+}

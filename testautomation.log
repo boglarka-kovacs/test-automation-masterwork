@@ -1,5 +1,151 @@
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
 [Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Start test = signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Open signup page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open registration page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check registration form is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check signup success page is loaded
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not start step: no test case running
+[Test worker] INFO masterwork.myStore.BaseTest - Start test = signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Open signup page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open registration page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check registration form is loaded
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid f4dd9621-0f89-4afd-8657-6edcbbea9c63 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid f4dd9621-0f89-4afd-8657-6edcbbea9c63 not found
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed signup message is loaded
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Start test=login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check login form is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check success login page is loaded
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not start step: no test case running
+[Test worker] INFO masterwork.myStore.BaseTest - Start test=login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check login form is loaded
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 4702dcbf-cce0-4960-ac18-e7af9b891700 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid 4702dcbf-cce0-4960-ac18-e7af9b891700 not found
+[Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed login message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed login message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed login message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed login message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed login message is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check failed login message is loaded
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Start test=privacy policy check
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Open signup page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open registration page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check registration form is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Open Privacy Policy text
+[Test worker] INFO masterwork.myStore.BaseTest - Select Privacy Policy checkbox
+[Test worker] INFO masterwork.myStore.BaseTest - Check checkbox is selected
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Start test = product listing
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Check phones & PDA's page is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Sorted products from Z to A
+[Test worker] INFO masterwork.myStore.BaseTest - Check products are in the specific order
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Start test=pagination
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Open all desktop page
+[Test worker] INFO masterwork.myStore.BaseTest - Check second page is loaded
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Start test=review
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Check product page is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Write review to product
+[Test worker] INFO masterwork.myStore.Pages.BasePage - send review called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - send review finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check review was sending
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
 [Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not start step: no test case running
 [Test worker] INFO masterwork.myStore.BaseTest - Start test=account manage
 [Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
@@ -9,8 +155,8 @@
 [Test worker] INFO masterwork.myStore.Pages.BasePage - login called
 [Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
 [Test worker] INFO masterwork.myStore.BaseTest - Check user account page is loaded
-[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid ec69d342-8b44-44af-87cd-2d10f919d9fe not found
-[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid ec69d342-8b44-44af-87cd-2d10f919d9fe not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid be7cbb06-138d-404f-8de0-ef2cc7335a80 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid be7cbb06-138d-404f-8de0-ef2cc7335a80 not found
 [Test worker] INFO masterwork.myStore.BaseTest - Add data to address book
 [Test worker] INFO masterwork.myStore.Pages.BasePage - add new address called
 [Test worker] INFO masterwork.myStore.Pages.BasePage - add new address finished
@@ -23,3 +169,48 @@
 [Test worker] INFO masterwork.myStore.Pages.BasePage - add new address called
 [Test worker] INFO masterwork.myStore.Pages.BasePage - add new address finished
 [Test worker] INFO masterwork.myStore.BaseTest - Check success data added message is loaded
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Start test=Address Deleting
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check login form is loaded
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check modify address page is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Check success delete message is loaded
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Star test=Data saving
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Check phones & PDA's page is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Write product descriptions to file
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Star test=logout
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check login form is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Logout my account
+[Test worker] INFO masterwork.myStore.BaseTest - Check success logout message is loaded
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 92.0.4515.107 (resolved driver for Chrome 92)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\BOB\.cache\selenium\chromedriver\win32\92.0.4515.107\chromedriver.exe
+[Test worker] INFO masterwork.myStore.BaseTest - Start test=password changeing
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open homepage
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check homepage is loaded
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Open login page
+[Test worker] INFO masterwork.myStore.Pages.BasePage - Check login form is loaded
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check change password page is loaded
+[Test worker] INFO masterwork.myStore.BaseTest - Change password
+[Test worker] INFO masterwork.myStore.Pages.BasePage - change password called
+[Test worker] INFO masterwork.myStore.Pages.BasePage - change password finished
+[Test worker] INFO masterwork.myStore.BaseTest - Check success password changing message is loaded

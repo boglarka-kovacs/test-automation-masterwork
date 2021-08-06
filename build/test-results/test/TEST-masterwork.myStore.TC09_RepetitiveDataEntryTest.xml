@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="masterwork.myStore.TC09_RepetitiveDataEntryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-05T09:39:52" hostname="DESKTOP-3C7LH7J" time="11.125">
+<testsuite name="masterwork.myStore.TC09_RepetitiveDataEntryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-06T16:35:39" hostname="DESKTOP-3C7LH7J" time="8.115">
   <properties/>
-  <testcase name="[1] Tesztelő, Róza, Vásárló utca1, Budapest, 1139, Hungary" classname="masterwork.myStore.TC09_RepetitiveDataEntryTest" time="4.399"/>
-  <testcase name="[2] Tesztelő, Ödön, Fogyasztó utca 2, Budapest, 1139, Hungary" classname="masterwork.myStore.TC09_RepetitiveDataEntryTest" time="3.389"/>
-  <testcase name="[3] Tesztelő, Elek, Vásárló utca 3, Budapest, 1139, Hungary" classname="masterwork.myStore.TC09_RepetitiveDataEntryTest" time="3.314"/>
+  <testcase name="[1] Tesztelő, Róza, Vásárló utca1, Budapest, 1139, Hungary" classname="masterwork.myStore.TC09_RepetitiveDataEntryTest" time="2.928"/>
+  <testcase name="[2] Tesztelő, Ödön, Fogyasztó utca 2, Budapest, 1139, Hungary" classname="masterwork.myStore.TC09_RepetitiveDataEntryTest" time="2.593"/>
+  <testcase name="[3] Tesztelő, Elek, Vásárló utca 3, Budapest, 1139, Hungary" classname="masterwork.myStore.TC09_RepetitiveDataEntryTest" time="2.583"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 25871
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 24571
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 05, 2021 11:39:45 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 06, 2021 6:35:37 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

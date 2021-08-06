@@ -36,13 +36,13 @@ masterwork/myStore/TC13_PasswordChangingSuccessTest.java
  masterwork.myStore.TC13_PasswordChangingSuccessTest
 masterwork/myStore/TC12_LogoutSuccessTest.java
  masterwork.myStore.TC12_LogoutSuccessTest
-masterwork/myStore/TC01_SignUpIsSuccessTest.java
- masterwork.myStore.TC01_SignUpIsSuccessTest
+masterwork/myStore/TC09_RepetitiveDataEntryTest.java
+ masterwork.myStore.TC09_RepetitiveDataEntryTest
 masterwork/myStore/Pages/AddressBookModifyPage.java
  masterwork.myStore.Pages.AddressBookModifyPage
 masterwork/myStore/TC07_PaginationSuccessfulTest.java
  masterwork.myStore.TC07_PaginationSuccessfulTest
 masterwork/myStore/TC10_DeleteAddressSuccessfulTest.java
  masterwork.myStore.TC10_DeleteAddressSuccessfulTest
-masterwork/myStore/TC09_RepetitiveDataEntryTest.java
- masterwork.myStore.TC09_RepetitiveDataEntryTest
+masterwork/myStore/TC01_SignUpIsSuccessTest.java
+ masterwork.myStore.TC01_SignUpIsSuccessTest

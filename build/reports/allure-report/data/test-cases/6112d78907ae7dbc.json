@@ -1,0 +1,80 @@
+{
+  "uid" : "6112d78907ae7dbc",
+  "name" : "[2] 123456789012345678901234567890123, Elek, failedsignup@example.com, 123456, success, success",
+  "fullName" : "masterwork.myStore.TC02_SignUpIsFailTest.signUpIsFailed",
+  "historyId" : "f9647cbeb523e5630f0deca89055e4e6",
+  "time" : {
+    "start" : 1628267664921,
+    "stop" : 1628267666197,
+    "duration" : 1276
+  },
+  "description" : "Test for signup with with boundary value of the required fields",
+  "descriptionHtml" : "<p>Test for signup with with boundary value of the required fields</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test for signup with with boundary value of the required fields",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9596891efa764f6f",
+      "name" : "Screenshot",
+      "source" : "9596891efa764f6f.png",
+      "type" : "image/png",
+      "size" : 84960
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store User Handling"
+  }, {
+    "name" : "feature",
+    "value" : "Signup Feature"
+  }, {
+    "name" : "story",
+    "value" : "Failed signup with wrong characters of first name"
+  }, {
+    "name" : "feature",
+    "value" : "Signup Feature"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3C7LH7J"
+  }, {
+    "name" : "thread",
+    "value" : "7328@DESKTOP-3C7LH7J.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "masterwork.myStore.TC02_SignUpIsFailTest"
+  }, {
+    "name" : "testClass",
+    "value" : "masterwork.myStore.TC02_SignUpIsFailTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "signUpIsFailed"
+  }, {
+    "name" : "suite",
+    "value" : "masterwork.myStore.TC02_SignUpIsFailTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6112d78907ae7dbc.json",
+  "parameterValues" : [ ]
+}

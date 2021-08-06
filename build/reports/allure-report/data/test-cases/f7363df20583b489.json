@@ -1,0 +1,77 @@
+{
+  "uid" : "f7363df20583b489",
+  "name" : "Data deleting success",
+  "fullName" : "masterwork.myStore.TC10_DeleteAddressSuccessfulTest.deletingAddressSuccessfully",
+  "historyId" : "b49881cb68a09a00feef2fe87e8182a8",
+  "time" : {
+    "start" : 1628267751799,
+    "stop" : 1628267755580,
+    "duration" : 3781
+  },
+  "description" : "Test to successful deleting address of user",
+  "descriptionHtml" : "<p>Test to successful deleting address of user</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Test to successful deleting address of user",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ec45ccb2d6fe3e95",
+      "name" : "Screenshot",
+      "source" : "ec45ccb2d6fe3e95.png",
+      "type" : "image/png",
+      "size" : 91568
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Your Store User Handling"
+  }, {
+    "name" : "feature",
+    "value" : "Data handling Feature"
+  }, {
+    "name" : "story",
+    "value" : "Successful address deleting"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-3C7LH7J"
+  }, {
+    "name" : "thread",
+    "value" : "7328@DESKTOP-3C7LH7J.Test worker(11)"
+  }, {
+    "name" : "package",
+    "value" : "masterwork.myStore.TC10_DeleteAddressSuccessfulTest"
+  }, {
+    "name" : "testClass",
+    "value" : "masterwork.myStore.TC10_DeleteAddressSuccessfulTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "deletingAddressSuccessfully"
+  }, {
+    "name" : "suite",
+    "value" : "masterwork.myStore.TC10_DeleteAddressSuccessfulTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7363df20583b489.json",
+  "parameterValues" : [ ]
+}
