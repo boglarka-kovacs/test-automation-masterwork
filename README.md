@@ -33,4 +33,4 @@ Allure report megnyitása terminálban Windows-on: gradlew allureServe
 
 Allure report megnyitása projektben: build/reports/allureReport/index.html
 
-Allure repot online elérhetősége az allábbi linkre kattintva érhető el: [link](http://192.168.0.94:50216/index.html#)
+Allure repot online elérhetősége az allábbi linkre kattintva érhető el: [link](http://192.168.0.94:63180/index.html)
