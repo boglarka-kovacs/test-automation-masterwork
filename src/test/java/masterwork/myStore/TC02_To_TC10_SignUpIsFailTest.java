@@ -14,7 +14,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 @Feature("Signup Feature")
 @Story("Failed signup with wrong characters of first name")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class TC02_SignUpIsFailTest extends BaseTest {
+public class TC02_TC10_SignUpIsFailTest extends BaseTest {
 
   @BeforeAll
   @Step("Open signup page")

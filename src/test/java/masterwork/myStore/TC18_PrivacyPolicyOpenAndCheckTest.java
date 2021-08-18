@@ -15,7 +15,7 @@ import sun.rmi.runtime.Log;
 @Epic("Your Store User Handling")
 @Feature("Signup Feature")
 @Story("Privacy Policy opening and checking")
-public class TC05_PrivacyPolicyOpenAndCheckTest extends BaseTest{
+public class TC18_PrivacyPolicyOpenAndCheckTest extends BaseTest{
   HomePage homePage = new HomePage(driver);
   SignUpPage signup = new SignUpPage(driver);
 

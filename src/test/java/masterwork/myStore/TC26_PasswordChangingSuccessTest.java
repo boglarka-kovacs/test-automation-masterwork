@@ -17,7 +17,7 @@ import org.openqa.selenium.WebElement;
 @Epic("Your Store User Handling")
 @Feature("Data handling Feature")
 @Story("Successful password changing")
-public class TC13_PasswordChangingSuccessTest extends BaseTest{
+public class TC26_PasswordChangingSuccessTest extends BaseTest{
   HomePage homePage = new HomePage(driver);
   LoginPage loginPage = new LoginPage(driver);
   MyAccountPage myAccount = new MyAccountPage(driver);

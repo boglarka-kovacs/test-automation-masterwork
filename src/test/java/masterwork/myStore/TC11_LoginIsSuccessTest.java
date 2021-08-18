@@ -1,30 +1,28 @@
 package masterwork.myStore;
 
-import static org.assertj.core.api.Assertions.*;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 import masterwork.myStore.Pages.HomePage;
 import masterwork.myStore.Pages.LoginPage;
-import masterwork.myStore.Pages.MyAccountPage;
+import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 @Epic("Your Store User Handling")
-@Feature("logout Feature")
-@Story("Successfully logout of user")
-public class TC12_LogoutSuccessTest extends BaseTest{
+@Feature("login Feature")
+@Story("Successfully login with correct email and password")
+public class TC11_LoginIsSuccessTest extends BaseTest{
   HomePage homePage = new HomePage(driver);
   LoginPage loginPage = new LoginPage(driver);
-  MyAccountPage myAccount = new MyAccountPage(driver);
 
   @Test
-  @DisplayName("Logout success")
-  @Description("Successful logout from Your Store")
-  public void logoutIsSuccess(){
+  @DisplayName("Login success")
+  @Description("Login to Your Store with valid user, and pass")
+  public void loginIsSuccessful() {
 
-    LOG.info("Star test=logout");
+    LOG.info("Start test=login");
     homePage.open();
 
     LOG.info("Open login page");
@@ -33,10 +31,8 @@ public class TC12_LogoutSuccessTest extends BaseTest{
     LOG.info("Called login page.login");
     loginPage.login("teszt@example.com", "successTry23");
 
-    LOG.info("Logout my account");
-    myAccount.getLogoutButton().click();
-
-    LOG.info("Check success logout message is loaded");
-    assertThat(driver.getTitle()).isEqualTo("Account Logout");
+    LOG.info("Check success login page is loaded");
+    Assertions.assertThat(driver.getTitle()).isEqualTo("My Account");
+    makeScreenshot(driver);
   }
 }

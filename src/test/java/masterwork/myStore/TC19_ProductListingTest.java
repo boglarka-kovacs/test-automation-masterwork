@@ -17,7 +17,7 @@ import java.util.List;
 @Epic("Your Store Product Handling")
 @Feature("Product Listing Feature")
 @Story("Successfully list products in a specific order")
-public class TC06_ProductListingTest extends BaseTest {
+public class TC19_ProductListingTest extends BaseTest {
   HomePage homePage = new HomePage(driver);
   PhonesAndPDAsPage phonesAndPDAsPage = new PhonesAndPDAsPage(driver);
 

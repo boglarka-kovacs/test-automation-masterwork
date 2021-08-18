@@ -14,7 +14,7 @@ import org.junit.jupiter.api.Test;
 @Epic("Your Store Product Handling")
 @Feature("Product listing Feature")
 @Story("Successfully list more then one page of products")
-public class TC07_PaginationSuccessfulTest extends BaseTest{
+public class TC20_PaginationSuccessfulTest extends BaseTest{
   HomePage homePage = new HomePage(driver);
   AllDesktopProductsPage productPage = new AllDesktopProductsPage(driver);
 

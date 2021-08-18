@@ -15,7 +15,7 @@ import org.junit.jupiter.api.Test;
 @Epic("Your Store User Handling")
 @Feature("Data handling Feature")
 @Story("Successful address deleting")
-public class TC10_DeleteAddressSuccessfulTest extends BaseTest{
+public class TC23_DeleteAddressSuccessfulTest extends BaseTest{
   HomePage homePage = new HomePage(driver);
   LoginPage loginPage = new LoginPage(driver);
   MyAccountPage myAccount = new MyAccountPage(driver);

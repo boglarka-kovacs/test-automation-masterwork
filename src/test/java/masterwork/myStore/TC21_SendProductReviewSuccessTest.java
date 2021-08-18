@@ -14,7 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 @Epic("Your Store Product Handling")
 @Feature("Product Review Feature")
 @Story("Successfully send a review for the product")
-public class TC08_SendProductReviewSuccessTest extends BaseTest{
+public class TC21_SendProductReviewSuccessTest extends BaseTest{
   HomePage homePage = new HomePage(driver);
   MacBookPage review = new MacBookPage(driver);
 

@@ -17,7 +17,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 @Feature("Data handling Feature")
 @Story("Successful entry of data")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class TC09_RepetitiveDataEntryTest extends BaseTest{
+public class TC22_RepetitiveDataEntryTest extends BaseTest{
 
   @BeforeAll
   @Step("User Account open success")

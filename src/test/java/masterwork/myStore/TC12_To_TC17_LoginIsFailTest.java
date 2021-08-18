@@ -14,7 +14,7 @@ import org.junit.jupiter.params.provider.CsvFileSource;
 @Feature("login Feature")
 @Story("Failed login with incorrect username or/and incorrect password")
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
-public class TC04_LoginIsFailTest extends BaseTest{
+public class TC12_To_TC17_LoginIsFailTest extends BaseTest{
 
   @BeforeAll
   @Step("Open login page")

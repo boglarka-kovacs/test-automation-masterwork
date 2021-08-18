@@ -14,7 +14,7 @@ import java.io.IOException;
 @Epic("Your Store Product Handling")
 @Feature("Product description save Feature")
 @Story("Successfully save the description of listed products")
-public class TC11_SaveMoreProductDataToFilesTest extends BaseTest {
+public class TC24_SaveMoreProductDataToFilesTest extends BaseTest {
   HomePage homePage = new HomePage(driver);
   PhonesAndPDAsPage phonesAndPDAsPage = new PhonesAndPDAsPage(driver);
 
