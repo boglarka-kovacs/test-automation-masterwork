@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="masterwork.myStore.TC22_RepetitiveDataEntryTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-08-18T08:10:38" hostname="DESKTOP-3C7LH7J" time="8.239">
+  <properties/>
+  <testcase name="[1] Tesztelő, Róza, Vásárló utca1, Budapest, 1139, Hungary" classname="masterwork.myStore.TC22_RepetitiveDataEntryTest" time="2.965"/>
+  <testcase name="[2] Tesztelő, Ödön, Fogyasztó utca 2, Budapest, 1139, Hungary" classname="masterwork.myStore.TC22_RepetitiveDataEntryTest" time="2.671"/>
+  <testcase name="[3] Tesztelő, Elek, Vásárló utca 3, Budapest, 1139, Hungary" classname="masterwork.myStore.TC22_RepetitiveDataEntryTest" time="2.593"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 44606
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+aug. 18, 2021 10:10:36 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

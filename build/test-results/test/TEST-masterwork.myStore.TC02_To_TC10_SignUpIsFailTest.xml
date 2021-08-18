@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2021-08-18T08:09:13" hostname="DESKTOP-3C7LH7J" time="31.553">
+  <properties/>
+  <testcase name="[1] , Elek, failedsignup12@example.com, 123456, success, success" classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="2.984"/>
+  <testcase name="[2] Tesztelek harminch�rom karakterre, Elek, failedsignup12@example.com, 123456, success, success" classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="3.623"/>
+  <testcase name="[3] Teszt, , failedsignup12@example.com, 123456, success, success" classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="3.725"/>
+  <testcase name="[4] Teszt, Tesztelek harminch�rom karakterre, failedsignup12@example.com, 123456, success, success" classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="3.612"/>
+  <testcase name="[5] Teszt, Elek, , 123456, success, success" classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="3.38"/>
+  <testcase name="[6] Teszt, Elek, failedsignup12@example.com, 12, success, success" classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="3.58"/>
+  <testcase name="[7] Teszt, Elek, failedsignup12@example.com, 123456789-123456789-123456789-123, success, success" classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="3.561"/>
+  <testcase name="[8] Teszt, Elek, failedsignup12@example.com, 123456, pas, pas" classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="3.297"/>
+  <testcase name="[9] Teszt, Elek, failedsignup12@example.com, 123456, success, " classname="masterwork.myStore.TC02_To_TC10_SignUpIsFailTest" time="3.745"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 12861
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+aug. 18, 2021 10:09:11 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
