@@ -26,9 +26,9 @@ public class TC26_PasswordChangingSuccessTest extends BaseTest{
   @Test
   @DisplayName("Data changing success")
   @Description("Test to successful change password of user")
-  public void changeThePasswordSuccessful() throws InterruptedException {
+  public void changeThePasswordSuccessful() {
 
-    LOG.info("Start test=password changeing");
+    LOG.info("Start test=password changing");
     homePage.open();
     homePage.navigateToLogin();
     loginPage.login("teszt@example.com", "successTry23");
@@ -39,11 +39,10 @@ public class TC26_PasswordChangingSuccessTest extends BaseTest{
 
     LOG.info("Change password");
     changePassword.sendNewPassword("newpass", "newpass");
-    Thread.sleep(3000);
-    WebElement dd = driver.findElement(By.xpath("//*[@id=\"account-account\"]/div[1]"));
+    WebElement success = driver.findElement(By.xpath("//*[@id=\"account-account\"]/div[1]"));
 
     LOG.info("Check success password changing message is loaded");
-    assertThat(dd.getText())
+    assertThat(success.getText())
             .isEqualTo("Success: Your password has been successfully updated.");
   }
 }
