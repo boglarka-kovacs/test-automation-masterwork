@@ -1,6 +1,5 @@
 package masterwork.myStore.Pages;
 
-import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -59,10 +58,10 @@ public class SignUpPage extends BasePage{
   @FindBy(linkText = "Privacy Policy")
   WebElement privacyPolicyLinkText;
 
-  @FindBy(xpath = "//*[@id=\"modal-agree\"]/div/div/div[1]/button")
+  @FindBy(css = "button.close")
   WebElement privacyPolicyWindowCloseButton;
 
-  @FindBy(xpath = "//*[@id=\"content\"]/form/div/div/input[2]")
+  @FindBy(css = "input[value='Continue']")
   WebElement getContinueButton;
 
   @FindBy(className = "text-danger")
@@ -75,7 +74,7 @@ public class SignUpPage extends BasePage{
     LOG.trace("email + " + email);
     LOG.trace("phone + " + telephone);
     LOG.trace("password + " + password);
-    LOG.trace("confir + " + confirm);
+    LOG.trace("confirm + " + confirm);
 
     getFirstNameField.sendKeys(firstName);
     getLastNameField.sendKeys(lastName);
