@@ -10,7 +10,6 @@ import masterwork.myStore.Pages.SignUpPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import sun.rmi.runtime.Log;
 
 @Epic("Your Store User Handling")
 @Feature("Signup Feature")
