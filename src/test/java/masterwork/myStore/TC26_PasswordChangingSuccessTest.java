@@ -28,7 +28,7 @@ public class TC26_PasswordChangingSuccessTest extends BaseTest{
   @Description("Test to successful change password of user")
   public void changeThePasswordSuccessful() {
 
-    LOG.info("Start test=password changeing");
+    LOG.info("Start test=password changing");
     homePage.open();
     homePage.navigateToLogin();
     loginPage.login("teszt@example.com", "successTry23");
@@ -39,9 +39,16 @@ public class TC26_PasswordChangingSuccessTest extends BaseTest{
 
     LOG.info("Change password");
     changePassword.sendNewPassword("newpass", "newpass");
+<<<<<<< HEAD
 
     LOG.info("Check success password changing message is loaded");
     assertThat(changePassword.getSuccess().getText())
+=======
+    WebElement success = driver.findElement(By.xpath("//*[@id=\"account-account\"]/div[1]"));
+
+    LOG.info("Check success password changing message is loaded");
+    assertThat(success.getText())
+>>>>>>> 73cbd03a0747dc181fa6eb890fddfca514ca6d2e
             .isEqualTo("Success: Your password has been successfully updated.");
   }
 }
