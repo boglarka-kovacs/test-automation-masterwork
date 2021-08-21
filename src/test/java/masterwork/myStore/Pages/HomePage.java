@@ -26,7 +26,7 @@ public class HomePage extends BasePage{
   @FindBy(linkText = "Show All Desktops")
   WebElement allDesktopsLink;
 
-  @FindBy(xpath = "//*[@id=\"content\"]/div[2]/div[1]/div/div[1]/a/img")
+  @FindBy(css = "img[title='MacBook']")
   WebElement productImg;
 
   @FindBy(linkText = "Phones & PDAs")
