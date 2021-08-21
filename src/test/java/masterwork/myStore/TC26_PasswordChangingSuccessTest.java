@@ -11,8 +11,6 @@ import masterwork.myStore.Pages.LoginPage;
 import masterwork.myStore.Pages.MyAccountPage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 @Epic("Your Store User Handling")
 @Feature("Data handling Feature")
@@ -39,16 +37,9 @@ public class TC26_PasswordChangingSuccessTest extends BaseTest{
 
     LOG.info("Change password");
     changePassword.sendNewPassword("newpass", "newpass");
-<<<<<<< HEAD
 
     LOG.info("Check success password changing message is loaded");
     assertThat(changePassword.getSuccess().getText())
-=======
-    WebElement success = driver.findElement(By.xpath("//*[@id=\"account-account\"]/div[1]"));
-
-    LOG.info("Check success password changing message is loaded");
-    assertThat(success.getText())
->>>>>>> 73cbd03a0747dc181fa6eb890fddfca514ca6d2e
             .isEqualTo("Success: Your password has been successfully updated.");
   }
 }
