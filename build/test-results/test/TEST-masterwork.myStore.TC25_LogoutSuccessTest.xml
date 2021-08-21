@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="masterwork.myStore.TC25_LogoutSuccessTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-18T08:11:06" hostname="DESKTOP-3C7LH7J" time="3.035">
+<testsuite name="masterwork.myStore.TC25_LogoutSuccessTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-21T11:46:46" hostname="DESKTOP-3C7LH7J" time="2.627">
   <properties/>
-  <testcase name="Logout success" classname="masterwork.myStore.TC25_LogoutSuccessTest" time="3.035"/>
+  <testcase name="Logout success" classname="masterwork.myStore.TC25_LogoutSuccessTest" time="2.627"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 32662
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 38661
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 18, 2021 10:11:06 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 21, 2021 1:46:46 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>

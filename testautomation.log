@@ -19,8 +19,8 @@
 [Test worker] INFO masterwork.myStore.BaseTest - Open signup page
 [Test worker] INFO masterwork.myStore.Pages.BasePage - Open registration page
 [Test worker] INFO masterwork.myStore.Pages.BasePage - Check registration form is loaded
-[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid f4a64921-678e-4bc9-ae8b-b72663a7b469 not found
-[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid f4a64921-678e-4bc9-ae8b-b72663a7b469 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 03f4d528-dda8-4d84-b677-c00bf7eda115 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid 03f4d528-dda8-4d84-b677-c00bf7eda115 not found
 [Test worker] INFO masterwork.myStore.BaseTest - Called signup page.signup
 [Test worker] INFO masterwork.myStore.Pages.BasePage - signup called
 [Test worker] INFO masterwork.myStore.Pages.BasePage - signup finished
@@ -78,8 +78,8 @@
 [Test worker] INFO masterwork.myStore.BaseTest - Open login page
 [Test worker] INFO masterwork.myStore.Pages.BasePage - Open login page
 [Test worker] INFO masterwork.myStore.Pages.BasePage - Check login form is loaded
-[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid ffd80044-1a45-4a45-878d-6ef1c28b6ab5 not found
-[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid ffd80044-1a45-4a45-878d-6ef1c28b6ab5 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid 8ebc4177-3878-412e-8612-73d1f8366566 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid 8ebc4177-3878-412e-8612-73d1f8366566 not found
 [Test worker] INFO masterwork.myStore.BaseTest - Called login page.login
 [Test worker] INFO masterwork.myStore.Pages.BasePage - login called
 [Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
@@ -151,8 +151,8 @@
 [Test worker] INFO masterwork.myStore.Pages.BasePage - login called
 [Test worker] INFO masterwork.myStore.Pages.BasePage - login finished
 [Test worker] INFO masterwork.myStore.BaseTest - Check user account page is loaded
-[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid f4cda36a-d9b4-4e96-884c-aa59ea623450 not found
-[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid f4cda36a-d9b4-4e96-884c-aa59ea623450 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid ac27d073-7cfc-4693-a094-ee7ceac27383 not found
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: step with uuid ac27d073-7cfc-4693-a094-ee7ceac27383 not found
 [Test worker] INFO masterwork.myStore.BaseTest - Add data to address book
 [Test worker] INFO masterwork.myStore.Pages.BasePage - add new address called
 [Test worker] INFO masterwork.myStore.Pages.BasePage - add new address finished

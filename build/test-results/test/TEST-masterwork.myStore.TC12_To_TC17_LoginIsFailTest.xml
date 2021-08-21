@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-08-18T08:09:56" hostname="DESKTOP-3C7LH7J" time="10.072">
+<testsuite name="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-08-21T11:45:34" hostname="DESKTOP-3C7LH7J" time="10.038">
   <properties/>
-  <testcase name="[1] teszt@example.com, failTry23" classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.493"/>
-  <testcase name="[2] tezt@example.com, successTry23" classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.76"/>
-  <testcase name="[3] tezt@example, failTry23" classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.702"/>
-  <testcase name="[4] , successTry23&quot;" classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.715"/>
-  <testcase name="[5] teszt@example.com, " classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.755"/>
-  <testcase name="[6] , " classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.623"/>
+  <testcase name="[1] teszt@example.com, failTry23" classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.422"/>
+  <testcase name="[2] tezt@example.com, successTry23" classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.83"/>
+  <testcase name="[3] tezt@example, failTry23" classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.88"/>
+  <testcase name="[4] , successTry23&quot;" classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.619"/>
+  <testcase name="[5] teszt@example.com, " classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.633"/>
+  <testcase name="[6] , " classname="masterwork.myStore.TC12_To_TC17_LoginIsFailTest" time="1.63"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 2090
+  <system-err><![CDATA[Starting ChromeDriver 92.0.4515.107 (87a818b10553a07434ea9e2b6dccf3cbe7895134-refs/branch-heads/4515@{#1634}) on port 21857
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-aug. 18, 2021 10:09:54 DE org.openqa.selenium.remote.ProtocolHandshake createSession
+aug. 21, 2021 1:45:33 DU org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
