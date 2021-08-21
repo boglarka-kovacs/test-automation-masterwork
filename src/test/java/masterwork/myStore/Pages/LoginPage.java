@@ -20,10 +20,10 @@ public class LoginPage extends BasePage{
   @FindBy(name = "password")
   WebElement passwordField;
 
-  @FindBy(xpath = "//*[@id=\"content\"]/div/div[2]/div/form/input")
+  @FindBy(css = "input[value='Login']")
   WebElement loginButton;
 
-  @FindBy(xpath = "//*[@id=\"account-login\"]/div[1]")
+  @FindBy(css = ".alert-danger")
   WebElement errorMessage;
 
   public void login(String email, String password) {
