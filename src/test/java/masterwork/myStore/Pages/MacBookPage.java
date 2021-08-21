@@ -9,7 +9,7 @@ public class MacBookPage extends BasePage{
     super(driver);
   }
 
-  @FindBy(linkText = "Reviews (0)")
+  @FindBy(css = "a[href='#tab-review']")
   WebElement getReviewsLink;
 
   @FindBy(css = "#input-name")
@@ -24,7 +24,7 @@ public class MacBookPage extends BasePage{
   @FindBy(id = "button-review")
   WebElement getContinueButton;
 
-  @FindBy(xpath = "//*[@id='form-review']/div[2]")
+  @FindBy(css = ".alert-success")
   WebElement thankYouMessage;
 
   public void sendReview(String name, String text) {
