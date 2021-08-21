@@ -29,16 +29,16 @@ public class AddressBookModifyPage extends BasePage{
   @FindBy(id = "input-postcode")
   WebElement inputPostCodeField;
 
-  @FindBy(xpath = "//*[@id=\"content\"]/form/div/div[2]/input")
+  @FindBy(css = "input[value='Continue']")
   WebElement continueButton;
 
-  @FindBy(xpath = "//*[@id=\"account-address\"]/div[1]")
+  @FindBy(css = ".alert-success")
   WebElement successMessage;
 
   @FindBy(xpath = "//tbody/tr[3]/td[2]/a[2]")
   WebElement deleteButton;
 
-  @FindBy(xpath = "//*[@id='account-address']/div[1]")
+  @FindBy(css = ".alert-success")
   WebElement deletingSuccessMessage;
 
   public void addNewAddress(String firstName, String lastName, String address, String city, String postcode, String country) {
