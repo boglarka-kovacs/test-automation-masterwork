@@ -15,8 +15,11 @@ public class ChangePasswordPage extends BasePage{
   @FindBy(id = "input-confirm")
   public WebElement getConfirmPasswordField;
 
-  @FindBy(xpath = "//*[@id=\"content\"]/form/div/div[2]/input")
+  @FindBy(css = "input[value='Continue']")
   public WebElement getSubmitButton;
+
+  @FindBy(css = ".alert-success")
+  public WebElement success;
 
   public void sendNewPassword(String password, String confirm) {
     LOG.info("change password called");
@@ -28,6 +31,10 @@ public class ChangePasswordPage extends BasePage{
 
     LOG.info("change password finished");
     getSubmitButton.click();
+  }
+
+  public WebElement getSuccess() {
+    return success;
   }
 }
 
