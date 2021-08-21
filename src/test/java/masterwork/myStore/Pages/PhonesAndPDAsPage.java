@@ -21,7 +21,7 @@ public class PhonesAndPDAsPage extends BasePage{
   @FindBy(xpath = "//*[@id='content']/div/div[2]/h1")
   WebElement title;
 
-  @FindBy(xpath = "//*[@id=\"content\"]/div/div[1]/div")
+  @FindBy(css = ".tab-content")
   WebElement description;
 
   @FindBy(xpath = "//h4/a")
